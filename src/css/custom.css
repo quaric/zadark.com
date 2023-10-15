@@ -1,0 +1,79 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+:root {
+  --ifm-color-primary: #0068ff;
+  --ifm-color-primary-dark: #005ee6;
+  --ifm-color-primary-darker: #0058d9;
+  --ifm-color-primary-darkest: #0049b3;
+  --ifm-color-primary-light: #1a77ff;
+  --ifm-color-primary-lighter: #267fff;
+  --ifm-color-primary-lightest: #4d95ff;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-global-radius: 0.5rem;
+  --ifm-button-color: #fff;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #3989ff;
+  --ifm-color-primary-dark: #1a76ff;
+  --ifm-color-primary-darker: #0a6dff;
+  --ifm-color-primary-darkest: #0058da;
+  --ifm-color-primary-light: #589cff;
+  --ifm-color-primary-lighter: #68a5ff;
+  --ifm-color-primary-lightest: #97c1ff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.medium-zoom-image--opened, .medium-zoom-overlay {
+  z-index: var(--ifm-z-index-overlay);
+}
+
+.whats-new {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 0.25rem 1rem;
+  border: 1px solid var(--ifm-color-gray-700);
+  border-radius: 50rem;
+  color: var(--ifm-font-color-base);
+  font-size: 0.875rem;
+}
+
+.whats-new:hover {
+  text-decoration: none;
+}
+
+.alert {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}

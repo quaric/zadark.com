@@ -1,0 +1,27 @@
+.card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-toc-border-color);
+}
+
+.card__img {
+  display: block;
+}
+
+.card__body {
+  padding: 1rem;
+}
+
+.card__content {
+  margin-bottom: 1rem;
+}
+
+.card__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 0.5rem;
+}

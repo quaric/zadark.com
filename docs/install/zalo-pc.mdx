@@ -1,0 +1,22 @@
+import Card from '@site/src/components/card-install';
+
+# Cài đặt cho Zalo PC
+
+Kích hoạt Dark Mode (Chế độ tối) cho Zalo PC trên Windows và macOS.
+
+<div className='grid sm:grid-cols-2 gap-4'>
+  <Card
+    title='ZaDark for Windows'
+    content={<span>Hỗ trợ <strong>Windows 10</strong> trở lên</span>}
+    image={require('./img/windows.jpeg').default}
+    downloadLink='https://go.quaric.com/zadark-win'
+    tutorialLink='/pc/windows'
+  />
+  <Card
+    title='ZaDark for macOS'
+    content={<p>Hỗ trợ <strong>macOS Mojave</strong> trở lên</p>}
+    image={require('./img/macos.jpeg').default}
+    downloadLink='https://go.quaric.com/zadark-mac'
+    tutorialLink='/pc/macos'
+  />
+</div>

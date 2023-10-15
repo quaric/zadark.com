@@ -1,0 +1,22 @@
+.figure {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: var(--ifm-leading);
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img--rounded {
+  border-radius: var(--ifm-global-radius);
+}
+
+.figcaption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: center;
+}
