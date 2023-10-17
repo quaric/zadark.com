@@ -38,6 +38,11 @@ const sidebars = {
           type: "doc",
           id: "install/zalo-web",
           label: "Cho Zalo Web"
+        },
+        {
+          type: "doc",
+          id: "install/zalo-mobile",
+          label: "Cho Zalo Mobile"
         }
       ]
     },
