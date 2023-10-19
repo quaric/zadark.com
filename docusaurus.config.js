@@ -64,7 +64,7 @@ const config = {
       announcementBar: {
         id: 'noti_update_website',
         content:
-          'Trong vài tuần tới, chúng tôi sẽ thay đổi Website chính thức sang <a target="_blank" rel="noopener noreferrer" href="https://zadark.com"><strong>zadark.com</strong></a>',
+          'ZaDark thay đổi Website chính thức từ <strong>zadark.quaric.com</strong> thành <a target="_blank" rel="noopener noreferrer" href="https://zadark.com"><strong>zadark.com</strong></a>',
         backgroundColor: '#0068ff',
         textColor: '#fff',
       },
