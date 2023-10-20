@@ -26,10 +26,10 @@ const CardInstall: React.FC<IProps> = ({ title, image, content, downloadLink, tu
         )}
 
         <div className={styles.card__actions}>
-          <Link to={downloadLink} className={clsx('button button--primary w-full')}>Cài đặt</Link>
+          <Link to={downloadLink} className='button button--primary button--block'>Cài đặt</Link>
 
           {tutorialLink && (
-            <Link to={tutorialLink}>Xem hướng dẫn</Link>
+            <Link to={tutorialLink} className='button button--primary button--outline button--block'>Xem hướng dẫn</Link>
           )}
         </div>
       </div>

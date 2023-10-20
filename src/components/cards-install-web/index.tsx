@@ -30,16 +30,18 @@ const BROWSERS = [{
 
 const CardsInstallWeb = () => {
   return (
-    <div className='grid sm:grid-cols-2 gap-4'>
-      {BROWSERS.map((browser, index) => (
-        <CardInstall
-          key={index}
-          title={browser.title}
-          image={browser.image}
-          downloadLink={browser.downloadLink}
-          tutorialLink={browser.tutorialLink}
-        />
-      ))}
+    <div className="container margin-top--lg">
+      <div className="row">
+        {BROWSERS.map((browser, index) => (
+          <div key={index} className="col col--6 margin-bottom--lg">
+            <CardInstall
+              title={browser.title}
+              image={browser.image}
+              downloadLink={browser.downloadLink}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
