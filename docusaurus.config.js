@@ -81,6 +81,7 @@ const config = {
             position: 'left',
             label: 'Hướng dẫn',
           },
+          { to: '/sell-domains', label: 'Tên miền đẹp', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
         ],
       },
