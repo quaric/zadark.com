@@ -69,7 +69,7 @@ const config = {
         textColor: '#fff',
       },
       navbar: {
-        title: 'ZaDark by Quaric',
+        title: 'ZaDark',
         logo: {
           alt: 'ZaDark Logo',
           src: 'img/logo.svg',
