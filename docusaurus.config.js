@@ -83,7 +83,7 @@ const config = {
           },
           { to: '/privacy-policy', label: 'Điều khoản sử dụng', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/sell-domains', label: 'QC Tên miền đẹp', position: 'right' },
+          { href: 'https://vuatenmien.net', label: 'QC Tên miền đẹp', position: 'right' },
         ],
       },
       footer: {
