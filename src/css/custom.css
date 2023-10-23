@@ -71,3 +71,8 @@
 div[class^=announcementBar_] .close {
   color: #fff;
 }
+
+.dmca-badge {
+  display: inline-block;
+  margin-top: 1rem;
+}

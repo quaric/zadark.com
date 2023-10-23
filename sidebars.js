@@ -88,10 +88,10 @@ const sidebars = {
         }
       ]
     },
-    {
-      type: "doc",
-      id: 'privacy-policy',
-    },
+    // {
+    //   type: "doc",
+    //   id: 'privacy-policy',
+    // },
     {
       type: "doc",
       id: 'contact'

@@ -81,16 +81,87 @@ const config = {
             position: 'left',
             label: 'Hướng dẫn',
           },
-          { to: '/sell-domains', label: 'Tên miền đẹp', position: 'left' },
+          { to: '/privacy-policy', label: 'Điều khoản sử dụng', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/sell-domains', label: 'QC Tên miền đẹp', position: 'right' },
         ],
       },
       footer: {
         style: 'dark',
+        links: [{
+          title: 'Tải xuống',
+          items: [
+            {
+              label: 'ZaDark for Windows',
+              href: 'https://go.quaric.com/zadark-win',
+            },
+            {
+              label: 'ZaDark for macOS',
+              href: 'https://go.quaric.com/zadark-mac',
+            },
+            {
+              label: 'ZaDark for Chrome',
+              href: 'https://go.quaric.com/zadark-chrome',
+            },
+            {
+              label: 'ZaDark for Safari',
+              href: 'https://go.quaric.com/zadark-safari',
+            },
+            {
+              label: 'ZaDark for Firefox',
+              href: 'https://go.quaric.com/zadark-firefox',
+            },
+            {
+              label: 'ZaDark for Edge',
+              href: 'https://go.quaric.com/zadark-edge',
+            },
+            {
+              label: 'ZaDark for Opera',
+              href: 'https://go.quaric.com/zadark-opera',
+            }
+          ],
+        }, {
+          title: 'Kênh chính thức',
+          items: [
+            {
+              label: 'Zalo',
+              to: '/contact',
+            },
+            {
+              label: 'Facebook',
+              href: 'https://go.quaric.com/zadark-page'
+            },
+            {
+              label: 'YouTube',
+              href: 'https://go.quaric.com/youtube'
+            },
+            {
+              label: 'GitHub',
+              href: 'https://go.quaric.com/zadark-github'
+            },
+          ],
+        }, {
+          title: 'Thêm',
+          items: [{
+            label: 'Điều khoản sử dụng',
+            to: '/privacy-policy',
+          }, {
+            label: 'Blog',
+            to: '/blog',
+          }, {
+            label: 'Giải thưởng',
+            to: '/awards',
+          }, {
+            label: 'Donate',
+            to: '/donate',
+          }, {
+            html: `<a href="//www.dmca.com/Protection/Status.aspx?ID=85a452ca-06aa-4352-bfeb-7cb563dbd2b9" title="DMCA.com Protection Status" target="_blank" rel="noopener noreferrer" class="dmca-badge"><img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=85a452ca-06aa-4352-bfeb-7cb563dbd2b9" alt="DMCA.com Protection Status" /></a>`
+          }],
+        }],
         logo: {
           src: 'img/quaric-lockup-light.svg',
           alt: 'Quaric',
-          height: 16,
+          height: 24,
           href: 'https://quaric.com',
           target: '_blank'
         },

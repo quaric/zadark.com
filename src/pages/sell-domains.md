@@ -1,4 +1,4 @@
-# Tên miền đẹp
+# Quảng cáo Tên miền đẹp
 
 :::info
 [**Nhấn vào đây**](../contact) để liên hệ với chúng tôi nếu bạn muốn sở hữu tên miền.
