@@ -61,13 +61,13 @@ const config = {
         name: 'keywords',
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
       }],
-      announcementBar: {
-        id: 'noti_update_website',
-        content:
-          'ZaDark thay đổi Website chính thức từ <strong>zadark.quaric.com</strong> thành <a target="_blank" rel="noopener noreferrer" href="https://zadark.com"><strong>zadark.com</strong></a>',
-        backgroundColor: '#0068ff',
-        textColor: '#fff',
-      },
+      // announcementBar: {
+      //   id: 'noti_update_website',
+      //   content:
+      //     'ZaDark thay đổi Website chính thức từ <strong>zadark.quaric.com</strong> thành <a target="_blank" rel="noopener noreferrer" href="https://zadark.com"><strong>zadark.com</strong></a>',
+      //   backgroundColor: '#0068ff',
+      //   textColor: '#fff',
+      // },
       navbar: {
         title: 'ZaDark',
         logo: {
