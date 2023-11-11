@@ -15,6 +15,8 @@ authors: ncdai
 #### PC specific
 - Thêm dòng chữ "**Vui long cho trong giay lat. Co the se mat vai phut ...**" để người dùng hiểu quá trình cài đặt có thể kéo dài vài phút.
 
+<!-- truncate -->
+
 ## ZaDark 23.9.3
 
 > PC 11.4 và Web 9.14

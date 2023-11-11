@@ -3,8 +3,9 @@
 
 const dotenv = require('dotenv')
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { themes } = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 if (process.env.NODE_ENV === 'development') {
   dotenv.config();
@@ -83,7 +84,7 @@ const config = {
           },
           { to: '/privacy-policy', label: 'Điều khoản sử dụng', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { href: 'https://vuatenmien.net', label: 'QC Tên miền đẹp', position: 'right' },
+          { href: 'https://vuatenmien.net', label: 'Tên miền đẹp', position: 'left' },
         ],
       },
       footer: {
