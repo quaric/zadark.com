@@ -3,6 +3,18 @@
   "description": "Dark Mode tốt nhất cho Zalo",
   "version": "2.0",
   "private": true,
+  "author": {
+    "name": "Quaric",
+    "email": "hello@quaric.com",
+    "url": "https://quaric.com"
+  },
+  "contributors": [
+    {
+      "name": "Nguyen Chanh Dai",
+      "email": "hello@chanhdai.com",
+      "url": "https://github.com/iamncdai"
+    }
+  ],
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
