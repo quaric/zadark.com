@@ -32,6 +32,14 @@ const config = {
     locales: ['vi'],
   },
 
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5192881442581767',
+      async: true,
+      crossorigin: 'anonymous'
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -61,9 +69,6 @@ const config = {
       metadata: [{
         name: 'keywords',
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
-      }, {
-        name: 'google-adsense-account',
-        content: 'ca-pub-5192881442581767'
       }],
       // announcementBar: {
       //   id: 'noti_update_website',
