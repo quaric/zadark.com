@@ -13,3 +13,7 @@
   left: 0;
   border: 0;
 }
+
+.embed__iframe--rounded {
+  border-radius: var(--ifm-global-radius);
+}

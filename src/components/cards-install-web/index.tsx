@@ -4,27 +4,27 @@ import CardInstall from '../card-install';
 const BROWSERS = [{
   title: 'ZaDark for Chrome',
   image: require('@site/docs/install/img/chrome.jpeg').default,
-  downloadLink: 'https://go.quaric.com/zadark-chrome',
+  downloadLink: 'https://chrome.google.com/webstore/detail/zadark-%E2%80%93-zalo-dark-mode/llfhpkkeljlgnjgkholeppfnepmjppob',
   tutorialLink: '/web/chrome'
 }, {
   title: 'ZaDark for Safari',
   image: require('@site/docs/install/img/safari.jpeg').default,
-  downloadLink: 'https://go.quaric.com/zadark-safari',
+  downloadLink: 'https://apps.apple.com/us/app/zadark-zalo-dark-mode/id1615941471?mt=12',
   tutorialLink: '/web/safari'
 }, {
   title: 'ZaDark for Edge',
   image: require('@site/docs/install/img/edge.jpeg').default,
-  downloadLink: 'https://go.quaric.com/zadark-edge',
+  downloadLink: 'https://microsoftedge.microsoft.com/addons/detail/zadark-%E2%80%93-zalo-dark-mode/nbcljbcabjegmmogkcegephdkhckegcf',
   tutorialLink: '/web/edge'
 }, {
   title: 'ZaDark for Opera',
   image: require('@site/docs/install/img/opera.jpeg').default,
-  downloadLink: 'https://go.quaric.com/zadark-opera',
+  downloadLink: 'https://addons.opera.com/en/extensions/details/zadark-best-dark-theme-for-zalo/',
   tutorialLink: '/web/opera'
 }, {
   title: 'ZaDark for Firefox',
   image: require('@site/docs/install/img/firefox.jpeg').default,
-  downloadLink: 'https://go.quaric.com/zadark-firefox',
+  downloadLink: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/',
   tutorialLink: '/web/firefox'
 }]
 

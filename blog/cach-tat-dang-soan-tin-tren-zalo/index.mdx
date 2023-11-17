@@ -1,6 +1,9 @@
 ---
 title: Cách tắt đang soạn tin trên Zalo (PC/Web) để người khác không biết bạn đang online và soạn tin
 authors: ncdai
+tags:
+  - privacy
+  - tutorial
 ---
 import Image from '@site/src/components/image'
 
@@ -14,13 +17,13 @@ import Image from '@site/src/components/image'
 
 **Bước 1**: Để tắt tính năng đang soạn tin trên Zalo, trước hết bạn cần tải và cài đặt tiện ích [ZaDark](https://zadark.com). Dưới đây là các liên kết tải ZaDark cho các nền tảng khác nhau:
 
-- Đối với Zalo PC trên Windows: [Tải ZaDark cho Windows](https://go.quaric.com/zadark-win)
-- Đối với Zalo PC trên macOS: [Tải ZaDark cho macOS](https://go.quaric.com/zadark-mac)
-- Đối với Zalo Web trên Chrome: [Tải ZaDark cho Chrome](https://go.quaric.com/zadark-chrome)
-- Đối với Zalo Web trên Safari: [Tải ZaDark cho Safari](https://go.quaric.com/zadark-safari)
-- Đối với Zalo Web trên Edge: [Tải ZaDark cho Edge](https://go.quaric.com/zadark-edge)
-- Đối với Zalo Web trên Opera: [Tải ZaDark cho Opera](https://go.quaric.com/zadark-opera)
-- Đối với Zalo Web trên Firefox: [Tải ZaDark cho Firefox](https://go.quaric.com/zadark-firefox)
+- Đối với Zalo PC trên Windows: [Tải ZaDark cho Windows](https://sourceforge.net/projects/zadark/files/ZaDarkPC/Windows/)
+- Đối với Zalo PC trên macOS: [Tải ZaDark cho macOS](https://sourceforge.net/projects/zadark/files/ZaDarkPC/macOS/)
+- Đối với Zalo Web trên Chrome: [Tải ZaDark cho Chrome](https://chrome.google.com/webstore/detail/zadark-%E2%80%93-zalo-dark-mode/llfhpkkeljlgnjgkholeppfnepmjppob)
+- Đối với Zalo Web trên Safari: [Tải ZaDark cho Safari](https://apps.apple.com/us/app/zadark-zalo-dark-mode/id1615941471?mt=12)
+- Đối với Zalo Web trên Edge: [Tải ZaDark cho Edge](https://microsoftedge.microsoft.com/addons/detail/zadark-%E2%80%93-zalo-dark-mode/nbcljbcabjegmmogkcegephdkhckegcf)
+- Đối với Zalo Web trên Opera: [Tải ZaDark cho Opera](https://addons.opera.com/en/extensions/details/zadark-best-dark-theme-for-zalo/)
+- Đối với Zalo Web trên Firefox: [Tải ZaDark cho Firefox](https://addons.mozilla.org/en-US/firefox/addon/zadark/)
 
 <Image
   src={require('./img/tai-zadark-chrome.png').default}
@@ -35,5 +38,16 @@ import Image from '@site/src/components/image'
   alt="cai-dat-an-dang-soan-tin-va-da-xem"
   isRounded
 />
+
+:::tip Ẩn trạng thái Đã xem (Seen)
+Người khác sẽ không thấy trạng thái <strong>Đã xem (Seen)</strong> tin nhắn của bạn, nhưng bạn vẫn thấy trạng thái của họ.
+
+Tuy nhiên, trạng thái của các tin nhắn bạn đã xem trên Zalo Web sẽ <strong>không được đồng bộ (*)</strong> với máy chủ Zalo, bạn cần phải xem lại tin nhắn trên Zalo Mobile để đồng bộ. Đây không phải là lỗi, mà đó là hạn chế mà chúng ta phải chấp nhận nếu "chặn các trạng thái tin nhắn của Zalo".
+
+Giải thích **(*)**
+- Cách Zalo hoạt động: Khi các tin nhắn đến Zalo PC của bạn, Zalo PC sẽ gửi các request (yêu cầu) đến máy chủ Zalo để cập nhật trạng thái cho tin nhắn (đã gửi, đã nhận và đã xem tin nhắn) và đồng bộ trạng thái với bạn bè, Zalo Mobile → Nên trạng thái của tin nhắn được đồng bộ với bạn bè và Mobile.
+- Cách ZaDark chặn các trạng thái: Khi Zalo PC gửi các request đến máy chủ Zalo để cập nhật trạng thái tin nhắn, ZaDark sẽ đón và chặn đi các request liên quan đến cập nhật trạng thái đã gửi, đã nhận và đã xem tin nhắn → Điều này ngăn Zalo cập nhật trạng thái và đồng bộ với bạn bè, Zalo Mobile (giống như bạn chưa từng bấm vào hội thoại) → Nên cả bạn bè và Zalo Mobile sẽ không biết được bạn đã nhận hay xem tin nhắn hay chưa.
+
+:::
 
 Hy vọng các mẹo trên sẽ giúp ích được cho các bạn sử dụng Zalo PC, Zalo Web. Bên cạnh đó bọn mình còn có rất nhiều các mẹo về Zalo. Hãy để lại cho mình 1 like, 1 share, và bình luận phía bên dưới để có thể chia sẻ nhiều hơn với mọi người nhé!

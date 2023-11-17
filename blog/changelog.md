@@ -1,6 +1,8 @@
 ---
 title: Lịch sử thay đổi
 authors: ncdai
+tags:
+  - release
 ---
 
 ## ZaDark 23.10.1

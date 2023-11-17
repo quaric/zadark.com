@@ -102,32 +102,32 @@ const config = {
           items: [
             {
               label: 'ZaDark for Windows',
-              href: 'https://go.quaric.com/zadark-win',
+              href: 'https://sourceforge.net/projects/zadark/files/ZaDarkPC/Windows/',
             },
             {
               label: 'ZaDark for macOS',
-              href: 'https://go.quaric.com/zadark-mac',
+              href: 'https://sourceforge.net/projects/zadark/files/ZaDarkPC/macOS/',
             },
             {
               label: 'ZaDark for Chrome',
-              href: 'https://go.quaric.com/zadark-chrome',
+              href: 'https://chrome.google.com/webstore/detail/zadark-%E2%80%93-zalo-dark-mode/llfhpkkeljlgnjgkholeppfnepmjppob',
             },
             {
               label: 'ZaDark for Safari',
-              href: 'https://go.quaric.com/zadark-safari',
-            },
-            {
-              label: 'ZaDark for Firefox',
-              href: 'https://go.quaric.com/zadark-firefox',
+              href: 'https://apps.apple.com/us/app/zadark-zalo-dark-mode/id1615941471?mt=12',
             },
             {
               label: 'ZaDark for Edge',
-              href: 'https://go.quaric.com/zadark-edge',
+              href: 'https://microsoftedge.microsoft.com/addons/detail/zadark-%E2%80%93-zalo-dark-mode/nbcljbcabjegmmogkcegephdkhckegcf',
             },
             {
               label: 'ZaDark for Opera',
-              href: 'https://go.quaric.com/zadark-opera',
-            }
+              href: 'https://addons.opera.com/en/extensions/details/zadark-best-dark-theme-for-zalo/',
+            },
+            {
+              label: 'ZaDark for Firefox',
+              href: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/',
+            },
           ],
         }, {
           title: 'Kênh chính thức',
@@ -138,15 +138,15 @@ const config = {
             },
             {
               label: 'Facebook',
-              href: 'https://go.quaric.com/zadark-page'
+              href: 'https://www.facebook.com/zadarkdotcom'
             },
             {
               label: 'YouTube',
-              href: 'https://go.quaric.com/youtube'
+              href: 'https://www.youtube.com/@quaric'
             },
             {
               label: 'GitHub',
-              href: 'https://go.quaric.com/zadark-github'
+              href: 'https://github.com/quaric/zadark'
             },
           ],
         }, {
@@ -164,7 +164,7 @@ const config = {
             label: 'Donate',
             to: '/donate',
           }, {
-            html: `<a href="//www.dmca.com/Protection/Status.aspx?ID=85a452ca-06aa-4352-bfeb-7cb563dbd2b9" title="DMCA.com Protection Status" target="_blank" rel="noopener noreferrer" class="dmca-badge"><img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=85a452ca-06aa-4352-bfeb-7cb563dbd2b9" alt="DMCA.com Protection Status" /></a>`
+            html: `<a href="//www.dmca.com/Protection/Status.aspx?id=85a452ca-06aa-4352-bfeb-7cb563dbd2b9&refurl=https://zadark.com/" title="DMCA.com Protection Status" target="_blank" rel="noopener noreferrer" class="dmca-badge"><img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=85a452ca-06aa-4352-bfeb-7cb563dbd2b9" alt="DMCA.com Protection Status" /></a>`
           }],
         }],
         logo: {
