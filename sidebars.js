@@ -11,18 +11,13 @@
 
 // @ts-check
 
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+/** @type {import("@docusaurus/plugin-content-docs").SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
     {
       type: "doc",
-      label: "Trang chủ",
-      id: 'intro'
-    },
-    {
-      type: "doc",
       label: "Giới thiệu",
-      id: 'about'
+      id: "about"
     },
     {
       type: "category",
@@ -88,23 +83,19 @@ const sidebars = {
         }
       ]
     },
-    // {
-    //   type: "doc",
-    //   id: 'privacy-policy',
-    // },
     {
       type: "doc",
-      id: 'contact'
+      id: "contact"
     },
     {
-      type: 'category',
-      label: 'Khác',
+      type: "category",
+      label: "Khác",
       items: [{
         type: "doc",
-        id: 'awards',
+        id: "awards",
       }, {
         type: "doc",
-        id: 'donate',
+        id: "donate",
       }],
     },
   ],

@@ -70,12 +70,12 @@ const config = {
         name: 'keywords',
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
       }],
-      announcementBar: {
-        id: 'noti_ads_231120',
-        content: 'ZaDark vừa thêm quảng cáo để duy trì hoạt động. Chúng tôi xin lỗi nếu quảng cáo làm phiền mọi người!',
-        backgroundColor: '#0068ff',
-        textColor: '#fff',
-      },
+      // announcementBar: {
+      //   id: 'noti_ads_231120',
+      //   content: 'ZaDark vừa thêm quảng cáo để duy trì hoạt động. Chúng tôi xin lỗi nếu quảng cáo làm phiền mọi người!',
+      //   backgroundColor: '#0068ff',
+      //   textColor: '#fff',
+      // },
       navbar: {
         title: 'ZaDark',
         logo: {

@@ -3,13 +3,15 @@ import styles from './styles.module.css';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 
-type IProps = {
+export type ICardInstall = {
   title: string;
   image: string;
   content?: React.ReactNode;
   downloadLink: string;
   tutorialLink?: string;
 }
+
+type IProps = ICardInstall
 
 const CardInstall: React.FC<IProps> = ({ title, image, content, downloadLink, tutorialLink }) => {
   return (

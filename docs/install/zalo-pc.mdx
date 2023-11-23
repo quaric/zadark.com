@@ -1,4 +1,4 @@
-import Card from '@site/src/components/card-install';
+import CardsInstallPC from '@site/src/components/cards-install-pc';
 
 # Cài đặt cho Zalo PC
 
@@ -10,28 +10,7 @@ Kích hoạt Dark Mode (Chế độ tối) cho Zalo PC trên Windows và macOS.
 Bằng cách chấp nhận cài đặt và sử dụng ZaDark, bạn **ĐỒNG Ý** với [**Điều khoản sử dụng**](/privacy-policy) của chúng tôi.
 :::
 
-<div className="container margin-top--lg margin-bottom--lg">
-  <div className="row">
-    <div className="col col--6">
-      <Card
-        title='Cài đặt ZaDark for Windows'
-        content={<span>Hỗ trợ <strong>Windows 10</strong> trở lên</span>}
-        image={require('./img/windows.jpeg').default}
-        downloadLink='https://sourceforge.net/projects/zadark/files/ZaDarkPC/Windows/'
-        tutorialLink='/pc/windows'
-      />
-    </div>
-    <div className="col col--6">
-      <Card
-        title='Cài đặt ZaDark for macOS'
-        content={<span>Hỗ trợ <strong>macOS Mojave</strong> trở lên</span>}
-        image={require('./img/macos.jpeg').default}
-        downloadLink='https://sourceforge.net/projects/zadark/files/ZaDarkPC/macOS/'
-        tutorialLink='/pc/macos'
-      />
-    </div>
-  </div>
-</div>
+<CardsInstallPC />
 
 :::tip
 - Bạn cần cài lại ZaDark sau khi Zalo PC cập nhật phiên bản. Chúng tôi đang lên kế hoạch khắc phục bất tiện này.
