@@ -5,6 +5,14 @@ tags:
   - release
 ---
 
+## ZaDark 23.11.2
+> PC 11.7 và Web 9.17
+
+### Fixed
+- Sửa lỗi Dark Mode cho trình xem ảnh/video (Media Viewer)
+
+<!-- truncate -->
+
 ## ZaDark 23.11.1
 > PC 11.6 và Web 9.16
 
@@ -18,8 +26,6 @@ tags:
 
 ### Changed
 - Ẩn tiêu đề TitleBar ([#88](https://github.com/quaric/zadark/issues/88)).
-
-<!-- truncate -->
 
 ## ZaDark 23.10.1
 > PC 11.5 và Web 9.15
