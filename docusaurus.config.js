@@ -91,7 +91,6 @@ const config = {
           },
           { to: '/privacy-policy', label: 'Điều khoản sử dụng', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { href: 'https://vuatenmien.net', label: 'Tên miền đẹp', position: 'left' },
         ],
       },
       footer: {
