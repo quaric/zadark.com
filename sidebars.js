@@ -91,6 +91,10 @@ const sidebars = {
       type: "category",
       label: "Khác",
       items: [{
+        type: "link",
+        label: 'Giấy phép Nguồn mở',
+        href: '/open-source-licenses',
+      }, {
         type: "doc",
         id: "awards",
       }, {

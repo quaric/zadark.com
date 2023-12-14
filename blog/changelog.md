@@ -5,6 +5,19 @@ tags:
   - release
 ---
 
+## ZaDark 23.12.2
+> PC 12.0
+
+### Changed
+- **[macOS]** Bỏ định dạng tập tin cài đặt ***pkg**, thay thế bằng định dạng gốc **Unix Executable File**
+  - Sửa lỗi nghiêm trọng khi cài đặt `zsh: terminated...`
+  - Giúp cài đặt ZaDark nhanh hơn
+- **[macOS]** Bỏ thực hiện việc ký (codesign) và xác nhận (notarize) ứng dụng trên macOS với Apple, vì không thể thực hiện với tập tin **Unix Executable File**
+- Cải thiện quá trình cài đặt ZaDark PC
+- Cải thiện mã nguồn ZaDark PC
+
+<!-- truncate -->
+
 ## ZaDark 23.12.1
 > PC 11.8
 
@@ -18,8 +31,6 @@ tags:
 - Cập nhật địa chỉ hướng dẫn.
   - Windows: https://zadark.com/pc/windows
   - macOS: https://zadark.com/pc/macos
-
-<!-- truncate -->
 
 ## ZaDark 23.11.2
 > PC 11.7 và Web 9.17
