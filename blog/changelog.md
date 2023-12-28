@@ -5,14 +5,20 @@ tags:
   - release
 ---
 
+## ZaDark 23.12.5
+> PC 12.3 và Web 9.20
+
+### Changed
+- Giao diện ZaDark Settings mới
+
+<!-- truncate -->
+
 ## ZaDark 23.12.4
 > PC 12.2 và Web 9.19
 
 ### Fixed
 - Sửa lỗi Ẩn tên cuộc trò chuyện "Cộng đồng" ([#97](https://github.com/quaric/zadark/issues/97))
 - Sửa lỗi Dark Mode giao diện "Gửi lời mời kết bạn" ([#96](https://github.com/quaric/zadark/issues/96))
-
-<!-- truncate -->
 
 ## ZaDark 23.12.3
 > PC 12.1 và Web 9.18
