@@ -31,12 +31,6 @@ export const INSTALL_LINKS_FOR_WEB = [{
   downloadLink: 'https://microsoftedge.microsoft.com/addons/detail/zadark-%E2%80%93-zalo-dark-mode/nbcljbcabjegmmogkcegephdkhckegcf',
   // tutorialLink: '/web/edge'
 }, {
-  title: 'ZaDark for Opera',
-  content: null,
-  image: require('@site/docs/install/img/opera.jpeg').default,
-  downloadLink: 'https://addons.opera.com/en/extensions/details/zadark-best-dark-theme-for-zalo/',
-  // tutorialLink: '/web/opera'
-}, {
   title: 'ZaDark for Firefox',
   content: null,
   image: require('@site/docs/install/img/firefox.jpeg').default,

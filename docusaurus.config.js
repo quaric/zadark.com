@@ -119,10 +119,6 @@ const config = {
               href: 'https://microsoftedge.microsoft.com/addons/detail/zadark-%E2%80%93-zalo-dark-mode/nbcljbcabjegmmogkcegephdkhckegcf',
             },
             {
-              label: 'ZaDark for Opera',
-              href: 'https://addons.opera.com/en/extensions/details/zadark-best-dark-theme-for-zalo/',
-            },
-            {
               label: 'ZaDark for Firefox',
               href: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/',
             },
