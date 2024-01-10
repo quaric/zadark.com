@@ -1,4 +1,4 @@
-# Cài đặt cho Zalo Mobile
+# Cài đặt ZaDark cho Zalo Mobile
 
 Kích hoạt Dark Mode (Chế độ tối) cho Zalo Mobile trên iOS/Android.
 

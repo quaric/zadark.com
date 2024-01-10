@@ -3,7 +3,15 @@ title: Lịch sử thay đổi
 authors: ncdai
 tags:
   - release
+date: 2024-01-10T10:00
 ---
+
+## ZaDark 24.1.2
+> PC 12.5 và Web 9.22
+
+- Tối ưu mã nguồn
+- **[Windows, macOS]** Thêm lệnh `-v`, `--version` để xem phiên bản ZaDark
+- **[macOS]** Hỗ trợ cài đặt ZaDark từ **Homebrew** ([Hướng dẫn sử dụng](https://zadark.com/pc/macos#install-zadark-with-homebrew)) ([#104](https://github.com/quaric/zadark/issues/104))
 
 ## ZaDark 24.1.1
 > PC 12.4 và Web 9.21
@@ -11,13 +19,13 @@ tags:
 - Sửa lỗi Dark Mode của Popup danh sách đã xem tin nhắn ([#102](https://github.com/quaric/zadark/issues/102))
 - Cập nhật cỡ chữ của khung soạn tin nhắn (không hỗ trợ chế độ định dạng tin nhắn) bằng với cỡ chữ của tin nhắn (Tuỳ chỉnh cỡ chữ trong phần ZaDark Settings)
 
+<!-- truncate -->
+
 ## ZaDark 23.12.5
 > PC 12.3 và Web 9.20
 
 ### Changed
 - Giao diện ZaDark Settings mới
-
-<!-- truncate -->
 
 ## ZaDark 23.12.4
 > PC 12.2 và Web 9.19
