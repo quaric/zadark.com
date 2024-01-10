@@ -76,3 +76,15 @@ div[class^=announcementBar_] .close {
   display: inline-block;
   margin-top: 1rem;
 }
+
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

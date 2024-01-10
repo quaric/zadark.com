@@ -1,70 +1,76 @@
 ---
 slug: /
+title: ZaDark – Zalo Dark Mode
+description: ZaDark là tiện ích giúp kích hoạt Dark Mode (Chế độ tối) cho Zalo PC và Web. ZaDark có mặt trên Windows, macOS, Chrome, Safari, Edge và Firefox.
 ---
-import ThemedImage from '@theme/ThemedImage';
-import ZaDarkByQuaric from '@site/docs/img/zadark-by-quaric.svg';
+import Link from "@docusaurus/Link";
+import ThemedImage from "@theme/ThemedImage";
+import useBaseUrl from "@docusaurus/useBaseUrl"
+import ZaDarkByQuaric from "@site/docs/img/zadark-by-quaric.svg";
 
-# ZaDark – Zalo Dark Mode
+<h1 className="text-center" style={{ fontSize: "3rem" }}>ZaDark – Zalo Dark Mode</h1>
 
-<p style={{ fontSize: '1.5rem', marginBottom: '1.5rem' }}>[**ZaDark**](/about) là tiện ích giúp kích hoạt Dark Mode (Chế độ tối) cho Zalo PC và Web. ZaDark có mặt trên Windows, macOS, Chrome, Safari, Edge và Firefox.</p>
+<p className="text-center text-balance" style={{ fontSize: "1.5rem", marginBottom: "1.5rem" }}>[**ZaDark**](/about) là tiện ích giúp kích hoạt Dark Mode (Chế độ tối) cho Zalo PC và Web. ZaDark có mặt trên Windows, macOS, Chrome, Safari, Edge và Firefox.</p>
 
-<div style={{ textAlign: 'center' }}>
-  <a href="/blog/changelog" className='whats-new'>Bản cập nhật có gì mới?</a>
-</div>
-
-<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '2rem' }}>
-  <a href="/install/zalo-pc" aria-label="Cài đặt cho Zalo PC" style={{ display: 'flex' }}>
+<div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap", marginBottom: "2rem" }}>
+  <Link to="/install/zalo-pc" aria-label="Cài đặt cho Zalo PC" className="flex">
     <ThemedImage
       alt="Cài đặt cho Zalo PC"
       sources={{
-        light: require('@site/docs/img/black--install-for-zalo-pc.png').default,
-        dark: require('@site/docs/img/white--install-for-zalo-pc.png').default,
+        light: useBaseUrl("/img/button-install/black--install-for-zalo-pc.svg"),
+        dark: useBaseUrl("/img/button-install/white--install-for-zalo-pc.svg"),
       }}
       height="48px"
       className="no-zoom-img"
-      style={{ borderRadius: 'var(--ifm-global-radius)', width: 'auto' }}
+      style={{ borderRadius: "var(--ifm-global-radius)", width: "auto" }}
     />
-  </a>
+  </Link>
 
-  <a href="/install/zalo-web" aria-label="Cài đặt cho Zalo Web" style={{ display: 'flex' }}>
+  <Link to="/install/zalo-web" aria-label="Cài đặt cho Zalo Web" className="flex">
     <ThemedImage
       alt="Cài đặt cho Zalo Web"
       sources={{
-        light: require('@site/docs/img/black--install-for-zalo-web.png').default,
-        dark: require('@site/docs/img/white--install-for-zalo-web.png').default,
+        light: require("@site/docs/img/black--install-for-zalo-web.png").default,
+        dark: require("@site/docs/img/white--install-for-zalo-web.png").default,
       }}
       height="48px"
       className="no-zoom-img"
-      style={{ borderRadius: 'var(--ifm-global-radius)', width: 'auto' }}
+      style={{ borderRadius: "var(--ifm-global-radius)", width: "auto" }}
     />
-  </a>
+  </Link>
 
-  {/* <a href="/install/zalo-mobile" aria-label="Cài đặt cho Zalo Mobile" style={{ display: 'flex' }}>
+  {/* <Link to="/install/zalo-mobile" aria-label="Cài đặt cho Zalo Mobile" className="flex">
     <ThemedImage
       alt="Cài đặt cho Zalo Mobile"
       sources={{
-        light: require('@site/docs/img/black--install-for-zalo-mobile.png').default,
-        dark: require('@site/docs/img/white--install-for-zalo-mobile.png').default,
+        light: require("@site/docs/img/black--install-for-zalo-mobile.png").default,
+        dark: require("@site/docs/img/white--install-for-zalo-mobile.png").default,
       }}
       height="48px"
       className="no-zoom-img"
-      style={{ borderRadius: 'var(--ifm-global-radius)', width: 'auto' }}
+      style={{ borderRadius: "var(--ifm-global-radius)", width: "auto" }}
     />
-  </a> */}
+  </Link> */}
 </div>
 
-<div className='margin-bottom--md'>
-  <img src={require('@site/docs/img/mockup-23.12.5-mascot-1.1.webp').default} alt="ZaDark Screenshot" width="992px" style={{ display: 'block', margin: '0 auto' }} />
+<div className="text-center">
+  <Link to="/blog/changelog" className="whats-new">Bản cập nhật có gì mới?</Link>
 </div>
 
-<div className='margin-bottom--md' style={{ textAlign: 'center' }}>
-  <a href="https://quaric.com" target='_blank' rel="noopener"><ZaDarkByQuaric /></a>
+<div className="margin-bottom--md">
+  <img src={require("@site/docs/img/mockup-23.12.5-mascot-1.1.webp").default} alt="ZaDark Screenshot" width="992px" style={{ display: "block", margin: "0 auto" }} />
 </div>
 
-<div className='container'>
-:::info Câu hỏi thường gặp
-ZaDark có an toàn không? **ZaDark rất an toàn**, vì ZaDark không chứa mã độc, ZaDark chưa bao giờ thu thập và sẽ không bao giờ thu thập bất kỳ dữ liệu cá nhân nào của bạn. Bạn có thể tìm hiểu thêm về [**Điều khoản sử dụng**](/privacy-policy).
-:::
+<div className="margin-bottom--md text-center">
+  <a href="https://quaric.com" target="_blank" rel="noopener"><ZaDarkByQuaric /></a>
+</div>
 
-_ZaDark vừa thêm quảng cáo để có kinh phí phát triển. Chúng tôi xin lỗi nếu quảng cáo làm phiền bạn!_
+<div className="container">
+  :::info Câu hỏi thường gặp
+  ZaDark có an toàn không? **ZaDark rất an toàn**, vì ZaDark không chứa mã độc, ZaDark chưa bao giờ thu thập và sẽ không bao giờ thu thập bất kỳ dữ liệu cá nhân nào của bạn. Bạn có thể tìm hiểu thêm về [**Điều khoản sử dụng**](/privacy-policy).
+  :::
+
+  <div className="text-center text-balance">
+  _ZaDark vừa thêm quảng cáo để có kinh phí phát triển. Chúng tôi xin lỗi nếu quảng cáo làm phiền bạn!_
+  </div>
 </div>

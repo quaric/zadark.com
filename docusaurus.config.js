@@ -4,8 +4,6 @@
 const dotenv = require('dotenv')
 
 const { themes } = require('prism-react-renderer');
-const lightCodeTheme = themes.github;
-const darkCodeTheme = themes.dracula;
 
 if (process.env.NODE_ENV === 'development') {
   dotenv.config();
@@ -171,8 +169,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Quaric. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.dracula,
+        additionalLanguages: ['bash']
       },
       colorMode: {
         defaultMode: 'dark',

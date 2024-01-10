@@ -17,6 +17,52 @@ Kích hoạt Dark Mode (Chế độ tối) cho Zalo PC trên macOS.
 - **Hãy nâng cấp Zalo PC và ZaDark lên phiên mới để có trải nghiệm tốt nhất**.
 :::
 
+##  Cài đặt ZaDark bằng Homebrew \{#install-zadark-with-homebrew}
+
+### Cài đặt Homebrew \{#install-homebrew}
+
+:::info
+- Bỏ qua bước này nếu bạn đã cài đặt Homebrew.
+- Bạn có thể tìm hiểu thêm về [**Homebrew**](https://brew.sh) trên Website chính thức.
+:::
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Cài đặt ZaDark Formula \{#install-zadark-formula}
+
+```bash
+brew tap quaric/zadark
+brew install zadark
+```
+
+### Sử dụng ZaDark Formula \{#use-zadark-formula}
+
+:::warning Lưu ý
+Bạn cần cấp quyền **Quản lý ứng dụng (App Management) cho Terminal** trước khi sử dụng ZaDark Formula.
+
+<YouTube videoId="K8dVMS9L-3o" title="Hướng dẫn cấp quyền Quản lý ứng dụng trên macOS Ventura trở lên | zadark.com" />
+:::
+
+```bash
+# Cài đặt ZaDark
+zadark install
+
+# Gỡ cài đặt ZaDark
+zadark uninstall
+
+# Kiểm tra phiên bản ZaDark
+zadark -v
+```
+
+### Cập nhật ZaDark Formula \{#update-zadark-formula}
+
+```bash
+brew update
+brew upgrade zadark
+```
+
 ## Các lỗi thường gặp \{#common-errors}
 
 ### "ZaDark" cannot be opened because it is from an unidentified developer.
