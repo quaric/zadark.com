@@ -17,7 +17,7 @@ const CardInstall: React.FC<IProps> = ({ title, image, content, downloadLink, tu
   return (
     <div className={styles.card}>
       <Link to={downloadLink} aria-label={title}>
-        <img src={image} alt={title} loading='eager' className={clsx('no-zoom-img', styles.card__img)} />
+        <img src={image} alt={title} loading='eager' className={clsx('can-not-zoom', styles.card__img)} />
       </Link>
 
       <div className={styles.card__body}>

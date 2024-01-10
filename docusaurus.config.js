@@ -178,7 +178,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       zoom: {
-        selector: '.markdown :not(.no-zoom-img) > img:not(.no-zoom-img)',
+        selector: '.markdown :not(.can-not-zoom) > img:not(.can-not-zoom), .zoomable',
         config: {
           margin: 32
           // options you can specify via https://github.com/francoischalifour/medium-zoom#usage

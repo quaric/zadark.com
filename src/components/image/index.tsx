@@ -24,7 +24,7 @@ const Image: React.FC<IProps> = ({ src, width, height, alt, caption, isRounded =
         height={height}
         className={clsx(styles.img, {
           [styles['img--rounded']]: isRounded,
-          'no-zoom-img': !canZoom }
+          'can-not-zoom': !canZoom }
         )}
       />
 
