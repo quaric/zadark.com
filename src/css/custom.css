@@ -22,6 +22,8 @@
 
   --ifm-global-radius: 0.5rem;
   --ifm-button-color: #fff;
+
+  --ads-by-google-background-color: var(--ifm-color-gray-100);
 }
 
 [data-theme='dark'] {
@@ -34,6 +36,9 @@
   --ifm-color-primary-lightest: #97c1ff;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ads-by-google-background-color: #161617;
+  /* var(--ifm-color-gray-900); */
 }
 
 .navbar__title {
@@ -95,4 +100,8 @@ div[class^=announcementBar_] .close {
 
 .text-balance {
   text-wrap: balance;
+}
+
+.adsbygoogle {
+  background-color: var(--ads-by-google-background-color);
 }
