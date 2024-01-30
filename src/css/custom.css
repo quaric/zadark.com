@@ -105,3 +105,8 @@ div[class^=announcementBar_] .close {
 .adsbygoogle {
   background-color: var(--ads-by-google-background-color);
 }
+
+.navbar__link svg {
+  position: relative;
+  top: 1px;
+}

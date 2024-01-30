@@ -89,6 +89,38 @@ const config = {
           },
           { to: '/privacy-policy', label: 'Điều khoản sử dụng', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'dropdown',
+            label: 'Đánh giá',
+            position: 'right',
+            items: [
+              {
+                label: 'ZaDark for Windows',
+                href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
+              },
+              {
+                label: 'ZaDark for macOS',
+                href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
+              },
+              {
+                label: 'ZaDark for Chrome',
+                href: 'https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob/reviews',
+              },
+              {
+                label: 'ZaDark for Safari',
+                href: 'https://apps.apple.com/us/app/zadark-for-safari/id1615941471?mt=12?action=write-review',
+              },
+              {
+                label: 'ZaDark for Edge',
+                href: 'https://microsoftedge.microsoft.com/addons/detail/nbcljbcabjegmmogkcegephdkhckegcf',
+              },
+              {
+                label: 'ZaDark for Firefox',
+                href: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/reviews',
+              },
+            ],
+          },
+          { href: 'https://zadark.canny.io/', label: 'Góp ý', position: 'right' },
         ],
       },
       footer: {
