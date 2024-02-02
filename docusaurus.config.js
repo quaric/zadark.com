@@ -121,6 +121,7 @@ const config = {
             ],
           },
           { href: 'https://zadark.canny.io/', label: 'Góp ý', position: 'right' },
+          { label: 'Donate', to: '/donate', position: 'right' },
         ],
       },
       footer: {
