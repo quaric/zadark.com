@@ -13,6 +13,9 @@ ZaDark can be installed and used on browsers such as Chrome, Safari, Edge, Firef
 
 * ZaDark had never collected and will never collect any personal data, browsing history, password,...
 * ZaDark does not alter any data related to your Zalo account.
+* Message translation feature:
+  * ZaDark PC/Web sends the data needing translation to **ZaDark API** via HTTPS. Subsequently, ZaDark API forwards the translation request to [**Google Cloud Translation API**](https://cloud.google.com/translate/docs/reference/libraries/v2/nodejs) via HTTPS to receive the translation results. The translated results are then sent back to ZaDark PC/Web via HTTPS for display to the user.
+  * The entire data processing takes place on the server of **ZaDark API, which does not store any user data**. Regarding the data processing by the Google Cloud Translation API, please refer to the details provided in [**Data usage FAQ**](https://cloud.google.com/translate/data-usage) by Google.
 
 ### Third Party Services
 
@@ -20,6 +23,7 @@ ZaDark can be installed and used on browsers such as Chrome, Safari, Edge, Firef
 * ZaDark PC utilizes [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to store user settings.
 * ZaDark Web uses Chrome (Chromium) or WebExtensions Storage Sync API for storing user's settings.
 * ZaDark utilizes the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch\_API/Using\_Fetch) and [Google Fonts CSS API](https://developers.google.com/fonts) to provide custom font customization features from [Google Fonts](https://fonts.google.com/), enabling users to personalize the Zalo interface.
+* ZaDark utilizes [Google Cloud Translation API](https://cloud.google.com/translate/docs/reference/libraries/v2/nodejs) to translate messages. For details on the usage of data by Google Cloud Translation API, please refer to the information provided in the [Data usage FAQ](https://cloud.google.com/translate/data-usage) by Google.
 * ZaDark uses open source libraries that are widely trusted and used by the programming community. All are listed at [Open Source Licenses](/open-source-licenses).
 
 ## Changes and Termination

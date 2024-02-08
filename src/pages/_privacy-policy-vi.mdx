@@ -13,6 +13,9 @@ ZaDark có thể được cài đặt và sử dụng trên các trình duyệt 
 
 * ZaDark chưa bao giờ thu thập và sẽ không bao giờ thu thập bất kỳ dữ liệu cá nhân nào như lịch sử duyệt web, mật khẩu,...
 * ZaDark không thay đổi bất cứ dữ liệu nào liên quan tài khoản Zalo của người dùng.
+* Tính năng dịch tin nhắn:
+  * ZaDark PC/Web gửi dữ liệu cần dịch tới **ZaDark API** qua HTTPS, sau đó ZaDark API gửi yêu cầu dịch tới [**Google Cloud Translation API**](https://cloud.google.com/translate/docs/reference/libraries/v2/nodejs) qua HTTPS để nhận kết quả dịch, và trả về kết quả dịch cho ZaDark PC/Web qua HTTPS để hiển thị cho người dùng.
+  * Toàn bộ quá trình xử lí dữ liệu diễn ra trên máy chủ của **ZaDark API không lưu trữ bất kỳ dữ liệu nào của người dùng**. Đối với quá trình xử lí dữ liệu của Google Cloud Translation API, bạn vui lòng xem chi tiết trong [**Câu hỏi thường gặp về sử dụng dữ liệu**](https://cloud.google.com/translate/data-usage) được Google cung cấp.
 
 ### Dịch vụ của bên thứ ba
 
@@ -20,6 +23,7 @@ ZaDark có thể được cài đặt và sử dụng trên các trình duyệt 
 * ZaDark PC sử dụng [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) để lưu trữ các cài đặt của người dùng.
 * ZaDark Web sử dụng [Chrome (Chromium)](https://developer.chrome.com/docs/extensions/reference/storage/#overview) hoặc [WebExtensions Storage Sync API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync) để lưu trữ các cài đặt của người dùng.
 * ZaDark sử dụng [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch\_API/Using\_Fetch), [Google Fonts CSS API](https://developers.google.com/fonts) để cung cấp tính năng tuỳ chỉnh phông chữ từ [Google Fonts](https://fonts.google.com/), giúp người dùng cá nhân hoá giao diện Zalo.
+* ZaDark sử dụng [Google Cloud Translation API](https://cloud.google.com/translate/docs/reference/libraries/v2/nodejs) để dịch tin nhắn. Đối với việc sử dụng dữ liệu của Google Cloud Translation API, bạn vui lòng chi tiết tại [Câu hỏi thường gặp về sử dụng dữ liệu](https://cloud.google.com/translate/data-usage) được Google cung cấp.
 * ZaDark sử dụng các thư viện nguồn mở được cộng đồng lập trình viên tin tưởng và sử dụng rộng rãi. Tất cả được liệt kê tại [Giấy phép Nguồn mở](/open-source-licenses).
 
 ## Thay đổi và chấm dứt
