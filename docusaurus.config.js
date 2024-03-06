@@ -189,6 +189,12 @@ const config = {
             label: 'Donate',
             to: '/donate',
           }, {
+            html: `
+              <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" class="digitalocean-badge">
+                <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" height="32" />
+              </a>
+            `
+          }, {
             html: `<a href="//www.dmca.com/Protection/Status.aspx?id=85a452ca-06aa-4352-bfeb-7cb563dbd2b9&refurl=https://zadark.com/" title="DMCA.com Protection Status" target="_blank" rel="noopener noreferrer" class="dmca-badge"><img src ="https://images.dmca.com/Badges/dmca_protected_16_120.png?ID=85a452ca-06aa-4352-bfeb-7cb563dbd2b9" alt="DMCA.com Protection Status" height="32" /></a>`
           }],
         }],
