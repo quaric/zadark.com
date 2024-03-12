@@ -205,7 +205,7 @@ const config = {
           href: 'https://quaric.com',
           target: '_blank'
         },
-        copyright: `Copyright © 2022-${new Date().getFullYear()} Quaric. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Quaric Co., Ltd.`,
       },
       prism: {
         theme: themes.dracula,
