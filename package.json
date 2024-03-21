@@ -1,7 +1,7 @@
 {
   "name": "zadark-docs",
   "description": "Dark Mode tốt nhất cho Zalo",
-  "version": "24.3.1",
+  "version": "24.3.2",
   "private": true,
   "author": {
     "name": "Quaric",
@@ -11,8 +11,8 @@
   "contributors": [
     {
       "name": "Nguyen Chanh Dai",
-      "email": "hello@chanhdai.com",
-      "url": "https://github.com/iamncdai"
+      "email": "dai@chanhdai.com",
+      "url": "https://github.com/ncdai"
     }
   ],
   "license": "MPL-2.0",
