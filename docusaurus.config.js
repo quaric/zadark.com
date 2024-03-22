@@ -189,6 +189,9 @@ const config = {
             label: 'Donate',
             to: '/donate',
           }, {
+            label: "Trạng thái hệ thống",
+            href: "https://stats.uptimerobot.com/JXvCyf8fUy"
+          }, {
             html: `
               <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" class="digitalocean-badge">
                 <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" height="32" />
