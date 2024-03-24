@@ -102,6 +102,23 @@ const sidebars = {
         id: "donate",
       }],
     },
+    {
+      type: "html",
+      value: `
+        <!-- Sidebar -->
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-5192881442581767"
+          data-ad-slot="5216129007"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      `
+    }
   ],
 };
 
