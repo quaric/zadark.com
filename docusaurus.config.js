@@ -259,11 +259,6 @@ const config = {
         // Optional, automatically send insights when user interacts with search results
         insights: true,
       },
-      docs: {
-        sidebar: {
-          hideable: true,
-        },
-      },
     }),
   plugins: [
     require.resolve('docusaurus-plugin-image-zoom')
