@@ -1,0 +1,4 @@
+.countdown {
+  font-weight: var(--ifm-font-weight-bold);
+  color: var(--ifm-color-primary);
+}

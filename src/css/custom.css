@@ -118,4 +118,5 @@ div[class^=announcementBar_] .close {
 .theme-doc-sidebar-menu .adsbygoogle {
   margin-right: 0.5rem;
   margin-top: 0.5rem;
+  background-color: transparent;
 }
