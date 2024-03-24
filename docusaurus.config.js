@@ -49,6 +49,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'Bài viết',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -76,6 +78,7 @@ const config = {
       // },
       navbar: {
         title: 'ZaDark',
+        hideOnScroll: true,
         logo: {
           alt: 'ZaDark Logo',
           src: 'img/logo.svg',
@@ -255,6 +258,11 @@ const config = {
 
         // Optional, automatically send insights when user interacts with search results
         insights: true,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
       },
     }),
   plugins: [

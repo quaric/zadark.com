@@ -115,6 +115,16 @@ div[class^=announcementBar_] .close {
   top: 1px;
 }
 
-/* .theme-doc-sidebar-menu .adsbygoogle {
+.theme-doc-sidebar-menu .adsbygoogle {
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
 
-} */
+.sidebarViewport_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.sidebarViewport_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module::-webkit-scrollbar {
+  display: none;
+}
