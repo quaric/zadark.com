@@ -34,9 +34,15 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
 
   return (
     <div>
-      <p className="text-center">
-        Tập tin sẽ được tải xuống sau <span className={styles.countdown}>{countdown} giây</span>
-      </p>
+      {countdown > 0 ? (
+        <p className="text-center">
+          Tập tin sẽ được tải xuống sau <span className={styles.countdown}>{countdown} giây</span>
+        </p>
+      ) : (
+        <p className="text-center">
+          Vui lòng <a href={url} className={styles.countdown}>Nhấn vào đây</a> nếu tập tin vẫn chưa được tải xuống
+        </p>
+      )}
 
       <p>
         <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" style={{ display: 'flex', justifyContent: 'center' }}>
