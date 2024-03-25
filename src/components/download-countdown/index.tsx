@@ -31,6 +31,8 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
 
     mixpanel.track("download_waiting", {
       file: url,
+    }, {
+      send_immediately: true
     });
   }, []);
 
@@ -54,6 +56,8 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
     try {
       mixpanel.track(isRetry ? "download_retry" : "download_start", {
         file: url,
+      }, {
+        send_immediately: true,
       }, () => {
         window.location.href = url;
       });
