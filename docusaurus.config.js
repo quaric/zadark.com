@@ -161,8 +161,8 @@ const config = {
           title: 'Kênh chính thức',
           items: [
             {
-              label: 'Zalo',
-              to: '/contact',
+              label: 'Zalo OA',
+              href: 'https://zalo.me/2353934240045322830',
             },
             {
               label: 'Facebook',
@@ -180,6 +180,9 @@ const config = {
         }, {
           title: 'Thêm',
           items: [{
+            label: "Liên hệ",
+            to: '/contact',
+          }, {
             label: 'Điều khoản sử dụng',
             to: '/privacy-policy',
           }, {
