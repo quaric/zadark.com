@@ -24,15 +24,13 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
     }
 
     mixpanel.init(MIXPANEL_TOKEN, {
-      debug: true,
+      debug: false,
       track_pageview: true,
       persistence: 'localStorage',
     });
 
     mixpanel.track("download_waiting", {
       file: url,
-    }, {
-      send_immediately: true
     });
   }, []);
 
