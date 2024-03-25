@@ -57,7 +57,9 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
       }, {
         send_immediately: true,
       }, () => {
-        window.location.href = url;
+        setTimeout(() => {
+          window.location.href = url;
+        }, 100)
       });
     } catch (error) {
       console.error(error.message)
