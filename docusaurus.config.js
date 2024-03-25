@@ -263,6 +263,10 @@ const config = {
   plugins: [
     require.resolve('docusaurus-plugin-image-zoom')
   ],
+  customFields: {
+    IS_DEV: process.env.NODE_ENV === 'development',
+    MIXPANEL_TOKEN: process.env.MIXPANEL_TOKEN,
+  }
 };
 
 module.exports = config;

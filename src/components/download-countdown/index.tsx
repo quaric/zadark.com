@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import mixpanel from 'mixpanel-browser';
 
 import styles from './styles.module.css'
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 type IProps = {
   url: string;
@@ -8,12 +10,34 @@ type IProps = {
 }
 
 const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
+  const {
+    siteConfig: { customFields },
+  } = useDocusaurusContext();
+
   const [countdown, setCountdown] = useState(14);
+
+  useEffect(() => {
+    const MIXPANEL_TOKEN = customFields.MIXPANEL_TOKEN as string;
+
+    if (!MIXPANEL_TOKEN) {
+      return;
+    }
+
+    mixpanel.init(MIXPANEL_TOKEN, {
+      debug: true,
+      track_pageview: true,
+      persistence: 'localStorage',
+    });
+
+    mixpanel.track("download_waiting", {
+      file: url,
+    });
+  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCountdown((prevCount) => {
-        const nextCount = prevCount - 1
+        const nextCount = prevCount - 1;
 
         if (nextCount <= 0) {
           clearInterval(timer);
@@ -26,9 +50,27 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
     return () => clearInterval(timer);
   }, []);
 
+  const startDownload = (isRetry = false) => {
+    try {
+      mixpanel.track(isRetry ? "download_retry" : "download_start", {
+        file: url,
+      }, () => {
+        window.location.href = url;
+      });
+    } catch (error) {
+      console.error(error.message)
+      window.location.href = url;
+    }
+  }
+
+  const handleRetryDownloadClick: React.MouseEventHandler<HTMLAnchorElement> = (e) => {
+    e.preventDefault();
+    startDownload(true);
+  }
+
   useEffect(() => {
     if (countdown === 0) {
-      window.location.href = url;
+      startDownload()
     }
   }, [countdown]);
 
@@ -40,7 +82,7 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
         </p>
       ) : (
         <p className="text-center">
-          Vui lòng <a href={url} className={styles.countdown}>Nhấn vào đây</a> nếu tập tin vẫn chưa được tải xuống
+          Vui lòng <a href="#" className={styles.countdown} onClick={handleRetryDownloadClick}>Nhấn vào đây</a> nếu tập tin vẫn chưa được tải xuống
         </p>
       )}
 
