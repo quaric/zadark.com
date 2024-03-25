@@ -8,7 +8,7 @@ type IProps = {
 }
 
 const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
-  const [countdown, setCountdown] = useState(15);
+  const [countdown, setCountdown] = useState(14);
 
   useEffect(() => {
     const timer = setInterval(() => {
