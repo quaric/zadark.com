@@ -27,6 +27,7 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
       debug: false,
       track_pageview: true,
       persistence: 'localStorage',
+      batch_requests: false,
     });
 
     mixpanel.track("download_waiting", {
@@ -57,9 +58,7 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
       }, {
         send_immediately: true,
       }, () => {
-        setTimeout(() => {
-          window.location.href = url;
-        }, 100)
+        window.location.href = url;
       });
     } catch (error) {
       console.error(error.message)
