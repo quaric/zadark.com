@@ -39,6 +39,12 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
       </p>
 
       <p>
+        <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" height="40" />
+        </a>
+      </p>
+
+      <p>
         {children}
       </p>
 
