@@ -134,11 +134,11 @@ const config = {
           items: [
             {
               label: 'ZaDark for Windows',
-              href: 'https://sourceforge.net/projects/zadark/files/ZaDarkPC/Windows/',
+              href: '/pc/windows',
             },
             {
               label: 'ZaDark for macOS',
-              href: 'https://sourceforge.net/projects/zadark/files/ZaDarkPC/macOS/',
+              href: '/pc/macos',
             },
             {
               label: 'ZaDark for Chrome',
