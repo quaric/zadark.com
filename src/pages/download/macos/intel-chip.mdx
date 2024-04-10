@@ -1,8 +1,10 @@
 ---
 title: Tải ZaDark for macOS (Intel Chip)
+hide_table_of_contents: true
 ---
 
 import DownloadCountdown from "@site/src/components/download-countdown"
+import LatestVersion from '@site/blog/changelog/_latest-version.mdx'
 import AdsByGoogle from "@site/src/components/ads-by-google"
 import { DOWNLOAD_URLS } from '@site/src/constants'
 
@@ -11,6 +13,12 @@ import { DOWNLOAD_URLS } from '@site/src/constants'
 </h1>
 
 <DownloadCountdown url={DOWNLOAD_URLS.MAC_INTEL_CHIP}>
+  <div className="card margin-bottom--md">
+    <div class="card__body">
+      <LatestVersion />
+    </div>
+  </div>
+
   <AdsByGoogle>
     <ins
       className="adsbygoogle"

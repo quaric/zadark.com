@@ -78,29 +78,31 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
   }, [countdown]);
 
   return (
-    <div>
-      {countdown > 0 ? (
-        <p className="text-center">
-          Tập tin sẽ được tải xuống sau <span className={styles.countdown}>{countdown} giây</span>
-        </p>
-      ) : (
-        <p className="text-center">
-          Vui lòng <a href="#" className={styles.countdown} onClick={handleRetryDownloadClick}>Nhấn vào đây</a> nếu tập tin vẫn chưa được tải xuống
-        </p>
-      )}
+    <div className="row">
+      <div className="col col--8 col--offset-2">
+        {countdown > 0 ? (
+          <p className="text-center">
+            Tập tin sẽ được tải xuống sau <span className={styles.countdown}>{countdown} giây</span>
+          </p>
+        ) : (
+          <p className="text-center">
+            Vui lòng <a href="#" className={styles.countdown} onClick={handleRetryDownloadClick}>Nhấn vào đây</a> nếu tập tin vẫn chưa được tải xuống
+          </p>
+        )}
 
-      <p>
-        <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" height="40" />
-        </a>
-      </p>
+        {/* <div className="margin-bottom--md">
+          <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" style={{ display: 'flex', justifyContent: 'center' }}>
+            <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" height="40" />
+          </a>
+        </div> */}
 
-      <p>
-        {children}
-      </p>
+        <div className="margin-bottom--md">
+          {children}
+        </div>
 
-      <div className="alert alert--info" role="alert">
-        ZaDark thêm quảng cáo để có kinh phí phát triển. Chúng tôi xin lỗi nếu quảng cáo làm phiền bạn!
+        <div className="alert alert--info" role="alert">
+          ZaDark thêm quảng cáo để có kinh phí phát triển. Chúng tôi xin lỗi nếu quảng cáo làm phiền bạn!
+        </div>
       </div>
     </div>
   );

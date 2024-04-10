@@ -94,6 +94,25 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             type: 'dropdown',
+            label: 'Tải nhanh',
+            position: 'right',
+            items: [
+              {
+                label: 'ZaDark for Windows',
+                href: '/download/windows?utm_source=navbar&utm_medium=dropdown_link&utm_campaign=download_campaign',
+              },
+              {
+                label: 'ZaDark for macOS (Apple Chip)',
+                href: '/download/macos/apple-chip?utm_source=navbar&utm_medium=dropdown_link&utm_campaign=download_campaign',
+              },
+              {
+                label: 'ZaDark for macOS (Intel Chip)',
+                href: '/download/macos/intel-chip?utm_source=navbar&utm_medium=dropdown_link&utm_campaign=download_campaign',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
             label: 'Đánh giá',
             position: 'right',
             items: [

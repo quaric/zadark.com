@@ -14,18 +14,32 @@ import AdsByGoogle from '@site/src/components/ads-by-google'
 <p className="text-center text-balance" style={{ fontSize: "1.5rem", marginBottom: "1.5rem" }}>[**ZaDark**](/about) là tiện ích giúp kích hoạt Dark Mode (Chế độ tối) cho Zalo PC và Web. ZaDark có mặt trên Windows, macOS, Chrome, Safari, Edge và Firefox.</p>
 
 <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap", marginBottom: "2rem" }}>
-  <Link to="/install/zalo-pc" aria-label="Cài đặt cho Zalo PC" className="flex">
-    <ThemedImage
-      alt="Cài đặt cho Zalo PC"
-      sources={{
-        light: useBaseUrl("/img/button-install/black--install-for-zalo-pc.svg"),
-        dark: useBaseUrl("/img/button-install/white--install-for-zalo-pc.svg"),
-      }}
-      height="48px"
-      className="can-not-zoom"
-      style={{ borderRadius: "var(--ifm-global-radius)", width: "auto" }}
-    />
-  </Link>
+  <div class="dropdown dropdown--hoverable">
+    <Link to="/install/zalo-pc" aria-label="Cài đặt cho Zalo PC" className="flex">
+      <ThemedImage
+        alt="Cài đặt cho Zalo PC"
+        sources={{
+          light: useBaseUrl("/img/button-install/black--install-for-zalo-pc.svg"),
+          dark: useBaseUrl("/img/button-install/white--install-for-zalo-pc.svg"),
+        }}
+        height="48px"
+        className="can-not-zoom"
+        style={{ borderRadius: "var(--ifm-global-radius)", width: "auto" }}
+      />
+    </Link>
+
+    <ul className="dropdown__menu">
+      <li>
+        <Link className="dropdown__link" to="/download/windows?utm_source=home_hero&utm_medium=dropdown_link&utm_campaign=download_campaign">Windows</Link>
+      </li>
+      <li>
+        <Link className="dropdown__link" to="/download/macos/apple-chip?utm_source=home_hero&utm_medium=dropdown_link&utm_campaign=download_campaign">macOS (Apple Chip)</Link>
+      </li>
+      <li>
+        <Link className="dropdown__link" to="/download/macos/intel-chip?utm_source=home_hero&utm_medium=dropdown_link&utm_campaign=download_campaign">macOS (Intel Chip)</Link>
+      </li>
+    </ul>
+  </div>
 
   <Link to="/install/zalo-web" aria-label="Cài đặt cho Zalo Web" className="flex">
     <ThemedImage
