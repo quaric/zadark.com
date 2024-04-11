@@ -70,12 +70,12 @@ const config = {
         name: 'keywords',
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
       }],
-      // announcementBar: {
-      //   id: 'noti_ads_231120',
-      //   content: 'ZaDark vừa thêm quảng cáo để duy trì hoạt động. Chúng tôi xin lỗi nếu quảng cáo làm phiền mọi người!',
-      //   backgroundColor: '#0068ff',
-      //   textColor: '#fff',
-      // },
+      announcementBar: {
+        id: 'zcloud_240411',
+        content: '<strong>QC</strong> · zCloud - Bảo toàn dữ liệu trò chuyện Zalo của bạn. <a href="/blog/zcloud-bao-toan-du-lieu-tro-chuyen-zalo-cua-ban?utm_source=zadark&utm_medium=announcement_bar">Tìm hiểu thêm</a>',
+        backgroundColor: '#0068ff',
+        textColor: '#fff',
+      },
       navbar: {
         title: 'ZaDark',
         hideOnScroll: true,
@@ -99,15 +99,15 @@ const config = {
             items: [
               {
                 label: 'ZaDark for Windows',
-                href: '/download/windows?utm_source=navbar&utm_medium=dropdown_link&utm_campaign=download_campaign',
+                href: '/download/windows?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
               },
               {
                 label: 'ZaDark for macOS (Apple Chip)',
-                href: '/download/macos/apple-chip?utm_source=navbar&utm_medium=dropdown_link&utm_campaign=download_campaign',
+                href: '/download/macos/apple-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
               },
               {
                 label: 'ZaDark for macOS (Intel Chip)',
-                href: '/download/macos/intel-chip?utm_source=navbar&utm_medium=dropdown_link&utm_campaign=download_campaign',
+                href: '/download/macos/intel-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
               },
             ],
           },
@@ -153,11 +153,11 @@ const config = {
           items: [
             {
               label: 'ZaDark for Windows',
-              href: '/pc/windows?utm_source=footer&utm_medium=link&utm_campaign=download_campaign',
+              href: '/pc/windows?utm_source=zadark&utm_medium=footer&utm_campaign=download_campaign',
             },
             {
               label: 'ZaDark for macOS',
-              href: '/pc/macos?utm_source=footer&utm_medium=link&utm_campaign=download_campaign',
+              href: '/pc/macos?utm_source=zadark&utm_medium=footer&utm_campaign=download_campaign',
             },
             {
               label: 'ZaDark for Chrome',
