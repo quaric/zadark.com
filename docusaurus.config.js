@@ -49,7 +49,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: 'Bài viết',
+          blogSidebarTitle: 'Cập nhật từ ZaDark',
           blogSidebarCount: 'ALL',
         },
         theme: {
@@ -143,7 +143,13 @@ const config = {
             ],
           },
           { href: 'https://zadark.canny.io/', label: 'Góp ý', position: 'right' },
-          { label: 'Donate', to: '/donate', position: 'right' },
+          // { label: 'Donate', to: '/donate', position: 'right' },
+          {
+            href: 'https://github.com/quaric/zadark',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub Repository',
+          },
         ],
       },
       footer: {
