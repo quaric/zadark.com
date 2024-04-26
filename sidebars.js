@@ -84,6 +84,20 @@ const sidebars = {
       ]
     },
     {
+      type: "category",
+      label: "Chính sách",
+      items: [{
+        type: "link",
+        label: 'Điều khoản sử dụng',
+        href: '/terms-of-use',
+      },
+      {
+        type: "link",
+        label: 'Chính sách bảo mật',
+        href: '/privacy-policy',
+      }],
+    },
+    {
       type: "doc",
       id: "contact"
     },
@@ -102,6 +116,32 @@ const sidebars = {
         id: "donate",
       }],
     },
+    // {
+    //   type: "link",
+    //   label: 'Giấy phép Nguồn mở',
+    //   href: '/open-source-licenses',
+    // }, {
+    //   type: "doc",
+    //   id: "awards",
+    // }, {
+    //   type: "doc",
+    //   id: "donate",
+    // },
+    // {
+    //   type: "category",
+    //   label: "Khác",
+    //   items: [{
+    //     type: "link",
+    //     label: 'Giấy phép Nguồn mở',
+    //     href: '/open-source-licenses',
+    //   }, {
+    //     type: "doc",
+    //     id: "awards",
+    //   }, {
+    //     type: "doc",
+    //     id: "donate",
+    //   }],
+    // },
     // {
     //   type: "html",
     //   value: `

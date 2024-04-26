@@ -184,8 +184,8 @@ const config = {
           title: 'Kênh chính thức',
           items: [
             {
-              label: 'Zalo OA',
-              href: 'https://zalo.me/2353934240045322830',
+              label: 'Zalo Official Account',
+              href: 'https://quaric.com/zalo-oa',
             },
             {
               label: 'Facebook',
