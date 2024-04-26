@@ -70,12 +70,12 @@ const config = {
         name: 'keywords',
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
       }],
-      announcementBar: {
-        id: 'zcloud_240411',
-        content: '<strong>QC</strong> · zCloud - Bảo toàn dữ liệu trò chuyện Zalo của bạn. <a href="/blog/zcloud-bao-toan-du-lieu-tro-chuyen-zalo-cua-ban?utm_source=zadark&utm_medium=announcement_bar">Tìm hiểu thêm</a>',
-        backgroundColor: '#0068ff',
-        textColor: '#fff',
-      },
+      // announcementBar: {
+      //   id: 'zcloud_240411',
+      //   content: '<strong>QC</strong> · zCloud - Bảo toàn dữ liệu trò chuyện Zalo của bạn. <a href="/blog/zcloud-bao-toan-du-lieu-tro-chuyen-zalo-cua-ban?utm_source=zadark&utm_medium=announcement_bar">Tìm hiểu thêm</a>',
+      //   backgroundColor: '#0068ff',
+      //   textColor: '#fff',
+      // },
       navbar: {
         title: 'ZaDark',
         hideOnScroll: true,
@@ -90,60 +90,58 @@ const config = {
             position: 'left',
             label: 'Hướng dẫn',
           },
-          { to: '/privacy-policy', label: 'Điều khoản sử dụng', position: 'left' },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Tải nhanh',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       label: 'ZaDark for Windows',
+          //       href: '/download/windows?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
+          //     },
+          //     {
+          //       label: 'ZaDark for macOS (Apple Chip)',
+          //       href: '/download/macos/apple-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
+          //     },
+          //     {
+          //       label: 'ZaDark for macOS (Intel Chip)',
+          //       href: '/download/macos/intel-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
+          //     },
+          //   ],
+          // },
           { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            type: 'dropdown',
-            label: 'Tải nhanh',
-            position: 'right',
-            items: [
-              {
-                label: 'ZaDark for Windows',
-                href: '/download/windows?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
-              },
-              {
-                label: 'ZaDark for macOS (Apple Chip)',
-                href: '/download/macos/apple-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
-              },
-              {
-                label: 'ZaDark for macOS (Intel Chip)',
-                href: '/download/macos/intel-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            label: 'Đánh giá',
-            position: 'right',
-            items: [
-              {
-                label: 'ZaDark for Windows',
-                href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
-              },
-              {
-                label: 'ZaDark for macOS',
-                href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
-              },
-              {
-                label: 'ZaDark for Chrome',
-                href: 'https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob/reviews',
-              },
-              {
-                label: 'ZaDark for Safari',
-                href: 'https://apps.apple.com/us/app/zadark-for-safari/id1615941471?mt=12?action=write-review',
-              },
-              {
-                label: 'ZaDark for Edge',
-                href: 'https://microsoftedge.microsoft.com/addons/detail/nbcljbcabjegmmogkcegephdkhckegcf',
-              },
-              {
-                label: 'ZaDark for Firefox',
-                href: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/reviews',
-              },
-            ],
-          },
-          { href: 'https://zadark.canny.io/', label: 'Góp ý', position: 'right' },
-          // { label: 'Donate', to: '/donate', position: 'right' },
+          { href: '/contact', label: 'Liên hệ', position: 'left' },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Đánh giá',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       label: 'ZaDark for Windows',
+          //       href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
+          //     },
+          //     {
+          //       label: 'ZaDark for macOS',
+          //       href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
+          //     },
+          //     {
+          //       label: 'ZaDark for Chrome',
+          //       href: 'https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob/reviews',
+          //     },
+          //     {
+          //       label: 'ZaDark for Safari',
+          //       href: 'https://apps.apple.com/us/app/zadark-for-safari/id1615941471?mt=12?action=write-review',
+          //     },
+          //     {
+          //       label: 'ZaDark for Edge',
+          //       href: 'https://microsoftedge.microsoft.com/addons/detail/nbcljbcabjegmmogkcegephdkhckegcf',
+          //     },
+          //     {
+          //       label: 'ZaDark for Firefox',
+          //       href: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/reviews',
+          //     },
+          //   ],
+          // },
           {
             href: 'https://github.com/quaric/zadark',
             position: 'right',
@@ -201,27 +199,19 @@ const config = {
               label: 'GitHub',
               href: 'https://github.com/quaric/zadark'
             },
+            {
+              label: "Trạng thái hệ thống",
+              href: "https://stats.uptimerobot.com/JXvCyf8fUy"
+            },
           ],
         }, {
-          title: 'Thêm',
+          title: 'Chính sách',
           items: [{
-            label: "Liên hệ",
-            to: '/contact',
-          }, {
             label: 'Điều khoản sử dụng',
+            to: '/terms-of-use',
+          }, {
+            label: 'Chính sách bảo mật',
             to: '/privacy-policy',
-          }, {
-            label: 'Blog',
-            to: '/blog',
-          }, {
-            label: 'Giải thưởng',
-            to: '/awards',
-          }, {
-            label: 'Donate',
-            to: '/donate',
-          }, {
-            label: "Trạng thái hệ thống",
-            href: "https://stats.uptimerobot.com/JXvCyf8fUy"
           }, {
             html: `
               <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" class="digitalocean-badge">
