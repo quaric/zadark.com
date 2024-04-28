@@ -70,12 +70,12 @@ const config = {
         name: 'keywords',
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
       }],
-      // announcementBar: {
-      //   id: 'zcloud_240411',
-      //   content: '<strong>QC</strong> · zCloud - Bảo toàn dữ liệu trò chuyện Zalo của bạn. <a href="/blog/zcloud-bao-toan-du-lieu-tro-chuyen-zalo-cua-ban?utm_source=zadark&utm_medium=announcement_bar">Tìm hiểu thêm</a>',
-      //   backgroundColor: '#0068ff',
-      //   textColor: '#fff',
-      // },
+      announcementBar: {
+        id: 'zadark_release_2445',
+        content: 'Bản cập nhật <strong>ZaDark 24.4.5</strong> đã được phát hành. <a href="/blog/changelog#zadark-2445">Xem thay đổi</a>',
+        backgroundColor: '#0068ff',
+        textColor: '#fff',
+      },
       navbar: {
         title: 'ZaDark',
         hideOnScroll: true,
