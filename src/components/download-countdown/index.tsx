@@ -96,13 +96,13 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
           </a>
         </div> */}
 
-        <div className="margin-bottom--md">
+        <div>
           {children}
         </div>
 
-        <div className="alert alert--info" role="alert">
+        {/* <div className="alert alert--info" role="alert">
           ZaDark thêm quảng cáo để có kinh phí phát triển. Chúng tôi xin lỗi nếu quảng cáo làm phiền bạn!
-        </div>
+        </div> */}
       </div>
     </div>
   );
