@@ -9,7 +9,7 @@ const Ins: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   return children
 }
 
-const AdsByGoogle: React.FC = (props) => {
+const AdsByGoogle = (props: { children?: React.ReactNode }) => {
   return (
     <BrowserOnly>
       {() => <Ins {...props} />}
