@@ -1,11 +1,11 @@
 export const INSTALL_LINKS_FOR_PC = [{
-  title: 'Cài đặt ZaDark for Windows',
+  title: 'ZaDark for Windows',
   content: <span>Hỗ trợ <strong>Windows 10</strong> trở lên</span>,
   image: require('@site/docs/install/img/windows.jpeg').default,
   downloadLink: '/pc/windows',
   // tutorialLink: '/pc/windows'
 }, {
-  title: 'Cài đặt ZaDark for macOS',
+  title: 'ZaDark for macOS',
   content: <span>Hỗ trợ <strong>macOS Mojave</strong> trở lên</span>,
   image: require('@site/docs/install/img/macos.jpeg').default,
   downloadLink: '/pc/macos',
