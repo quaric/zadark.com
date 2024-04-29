@@ -36,6 +36,11 @@ const config = {
       async: true,
       crossorigin: 'anonymous'
     },
+    {
+      src: "https://fundingchoicesmessages.google.com/i/pub-5192881442581767?ers=1",
+      async: true,
+      nonce: "6Y7VL5KEsl61CQfbmFD7uQ",
+    },
   ],
 
   presets: [
