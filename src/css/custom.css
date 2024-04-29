@@ -143,7 +143,7 @@ div[class^=announcementBar_] .close {
   width: 22px;
 }
 
-.table-of-contents {
+.theme-doc-toc-desktop {
   z-index: 1;
   background-color: var(--ifm-background-color);
 }
