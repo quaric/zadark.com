@@ -78,7 +78,7 @@ const config = {
       },
       navbar: {
         title: 'ZaDark',
-        hideOnScroll: true,
+        // hideOnScroll: true,
         logo: {
           alt: 'ZaDark Logo',
           src: 'img/logo.svg',
