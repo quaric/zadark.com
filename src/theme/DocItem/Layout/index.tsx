@@ -69,16 +69,18 @@ export default function DocItemLayout({children}: Props): JSX.Element {
       <div className="col col--3">
         {docTOC.desktop}
 
-        <AdsByGoogle>
-          <ins
-            className="adsbygoogle margin-top--md"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-5192881442581767"
-            data-ad-slot="6045782918"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </AdsByGoogle>
+        <div className="ads-col-right">
+          <AdsByGoogle>
+            <ins
+              className="adsbygoogle margin-top--md"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-5192881442581767"
+              data-ad-slot="6045782918"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </AdsByGoogle>
+        </div>
       </div>
     </div>
   );
