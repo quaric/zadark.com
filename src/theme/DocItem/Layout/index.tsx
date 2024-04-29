@@ -69,10 +69,10 @@ export default function DocItemLayout({children}: Props): JSX.Element {
       <div className="col col--3">
         {docTOC.desktop}
 
-        <div className="ads-col-right">
+        <div className="ads-col-right margin-top--md">
           <AdsByGoogle>
             <ins
-              className="adsbygoogle margin-top--md"
+              className="adsbygoogle"
               style={{ display: 'block' }}
               data-ad-client="ca-pub-5192881442581767"
               data-ad-slot="6045782918"
