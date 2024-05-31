@@ -190,7 +190,7 @@ const config = {
           items: [
             {
               label: 'Zalo Official Account',
-              href: 'https://quaric.com/zalo-oa',
+              href: 'https://zalo.me/quariccom',
             },
             {
               label: 'Facebook',
