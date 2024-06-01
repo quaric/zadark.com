@@ -38,7 +38,7 @@ export const INSTALL_LINKS_FOR_WEB = [{
   // tutorialLink: '/web/firefox'
 }]
 
-const VERSION = '12.12.1';
+const VERSION = '12.13';
 
 export const DOWNLOAD_URLS = {
   WINDOWS: `https://zadark.sgp1.digitaloceanspaces.com/windows/ZaDark%20${VERSION}.zip`,
