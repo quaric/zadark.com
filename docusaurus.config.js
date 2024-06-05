@@ -5,6 +5,8 @@ const dotenv = require('dotenv')
 
 const { themes } = require('prism-react-renderer');
 
+const packageJSON = require('./package.json');
+
 if (process.env.NODE_ENV === 'development') {
   dotenv.config();
 }
@@ -76,8 +78,8 @@ const config = {
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
       }],
       announcementBar: {
-        id: 'zadark_release_24.6.1',
-        content: 'Bản cập nhật <strong>ZaDark 24.6.1</strong> đã được phát hành. <a href="/blog/changelog#zadark-2461">Xem thay đổi</a>',
+        id: `zadark_release_${packageJSON.version.replace(/\./g, '')}`,
+        content: `Bản cập nhật <strong>ZaDark ${packageJSON.version}</strong> đã được phát hành. <a href="/blog/changelog#zadark-${packageJSON.version.replace(/\./g, '')}">Xem thay đổi</a>`,
         backgroundColor: '#0068ff',
         textColor: '#fff',
       },
