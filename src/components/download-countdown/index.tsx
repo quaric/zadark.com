@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import mixpanel from 'mixpanel-browser';
-
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css'
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
@@ -90,19 +90,13 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
           </p>
         )}
 
-        {/* <div className="margin-bottom--md">
-          <a href="https://www.digitalocean.com/?refcode=474b42f30e7d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean Referral Badge" aria-label="DigitalOcean Referral Badge" style={{ display: 'flex', justifyContent: 'center' }}>
-            <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" height="40" />
-          </a>
-        </div> */}
+        <div className="alert alert--warning margin-bottom--md" role="alert">
+          <strong>ZaDark không chứa bất kỳ virus, mã độc nào</strong>. Nếu trình bảo vệ máy tính phát hiện tập tin cài đặt ZaDark có Virus, bạn tuyệt đối không tiếp tục mở tập tin và thông báo cho chúng tôi <Link to="/contact"><strong>tại đây</strong></Link>.
+        </div>
 
         <div>
           {children}
         </div>
-
-        {/* <div className="alert alert--info" role="alert">
-          ZaDark thêm quảng cáo để có kinh phí phát triển. Chúng tôi xin lỗi nếu quảng cáo làm phiền bạn!
-        </div> */}
       </div>
     </div>
   );
