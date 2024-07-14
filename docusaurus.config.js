@@ -83,12 +83,12 @@ const config = {
       //   backgroundColor: '#0068ff',
       //   textColor: '#fff',
       // },
-      announcementBar: {
-        id: 'zadark_product_hunt',
-        content: 'ZaDark đã có mặt trên <strong>Product Hunt</strong>. Nếu bạn yêu thích ZaDark đừng quên để lại <strong>1 Vote</strong> nhé! <a href="https://www.producthunt.com/posts/zadark-zalo-dark-mode">Vote ZaDark</a>',
-        backgroundColor: '#FF6154',
-        textColor: '#fff',
-      },
+      // announcementBar: {
+      //   id: 'zadark_product_hunt',
+      //   content: 'ZaDark đã có mặt trên <strong>Product Hunt</strong>. Nếu bạn yêu thích ZaDark đừng quên để lại <strong>1 Vote</strong> nhé! <a href="https://www.producthunt.com/posts/zadark-zalo-dark-mode">Vote ZaDark</a>',
+      //   backgroundColor: '#FF6154',
+      //   textColor: '#fff',
+      // },
       navbar: {
         title: 'ZaDark',
         // hideOnScroll: true,
