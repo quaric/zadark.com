@@ -14,7 +14,7 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
     siteConfig: { customFields },
   } = useDocusaurusContext();
 
-  const [countdown, setCountdown] = useState(14);
+  const [countdown, setCountdown] = useState(6);
 
   useEffect(() => {
     const MIXPANEL_TOKEN = customFields.MIXPANEL_TOKEN as string;
