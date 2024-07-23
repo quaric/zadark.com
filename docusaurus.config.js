@@ -202,7 +202,7 @@ const config = {
             },
             {
               label: 'Facebook',
-              href: 'https://www.facebook.com/zadarkdotcom'
+              href: 'https://www.facebook.com/zadarkcom'
             },
             {
               label: 'YouTube',
