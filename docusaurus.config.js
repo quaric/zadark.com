@@ -155,6 +155,17 @@ const config = {
           //     },
           //   ],
           // },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Tiện ích miễn phí',
+          //   position: 'right',
+          //   items: [
+          //     {
+          //       label: 'Tra cứu mã bưu chính',
+          //       to: 'postal-code',
+          //     },
+          //   ],
+          // },
           {
             href: 'https://github.com/quaric/zadark',
             position: 'right',
@@ -292,7 +303,25 @@ const config = {
       },
     }),
   plugins: [
-    require.resolve('docusaurus-plugin-image-zoom')
+    require.resolve('docusaurus-plugin-image-zoom'),
+    // [
+    //   '@docusaurus/plugin-content-blog',
+    //   {
+    //     /**
+    //      * Required for any multi-instance plugin
+    //      */
+    //     id: 'postal-code',
+    //     /**
+    //      * URL route for the blog section of your site.
+    //      * *DO NOT* include a trailing slash.
+    //      */
+    //     routeBasePath: 'postal-code',
+    //     /**
+    //      * Path to data on filesystem relative to site dir.
+    //      */
+    //     path: './postal-code',
+    //   },
+    // ],
   ],
   customFields: {
     MIXPANEL_TOKEN: process.env.MIXPANEL_TOKEN,
