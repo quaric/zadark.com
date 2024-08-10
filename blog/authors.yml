@@ -3,4 +3,8 @@ ncdai:
   title: Founder of ZaDark
   url: https://chanhdai.com
   image_url: /img/zadark-icon-square.png
+  page: true
   email: dai@chanhdai.com
+  socials:
+    linkedin: ncdai
+    github: ncdai

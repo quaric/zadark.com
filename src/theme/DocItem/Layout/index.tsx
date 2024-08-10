@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import {useWindowSize} from '@docusaurus/theme-common';
-import {useDoc} from '@docusaurus/theme-common/internal';
+import {useDoc} from '@docusaurus/plugin-content-docs/client';
 import DocItemPaginator from '@theme/DocItem/Paginator';
 import DocVersionBanner from '@theme/DocVersionBanner';
 import DocVersionBadge from '@theme/DocVersionBadge';
@@ -10,14 +10,12 @@ import DocItemTOCMobile from '@theme/DocItem/TOC/Mobile';
 import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop';
 import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
-import Unlisted from '@theme/Unlisted';
+import ContentVisibility from '@theme/ContentVisibility';
 import type {Props} from '@theme/DocItem/Layout';
-
-import AdsByGoogle from '@site/src/components/ads-by-google'
 
 import styles from './styles.module.css';
 
-// yarn swizzle @docusaurus/theme-classic DocItem/Layout --eject
+import AdsByGoogle from '@site/src/components/ads-by-google'
 
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
@@ -45,13 +43,11 @@ function useDocTOC() {
 
 export default function DocItemLayout({children}: Props): JSX.Element {
   const docTOC = useDocTOC();
-  const {
-    metadata: {unlisted},
-  } = useDoc();
+  const {metadata} = useDoc();
   return (
     <div className="row">
       <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
-        {unlisted && <Unlisted />}
+        <ContentVisibility metadata={metadata} />
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
           <article>
@@ -64,9 +60,7 @@ export default function DocItemLayout({children}: Props): JSX.Element {
           <DocItemPaginator />
         </div>
       </div>
-      {/* {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>} */}
-
-      <div className="col col--3">
+      {docTOC.desktop && <div className="col col--3">
         {docTOC.desktop}
 
         <div className="ads-col-right margin-top--md">
@@ -81,7 +75,7 @@ export default function DocItemLayout({children}: Props): JSX.Element {
             ></ins>
           </AdsByGoogle>
         </div>
-      </div>
+      </div>}
     </div>
   );
 }
