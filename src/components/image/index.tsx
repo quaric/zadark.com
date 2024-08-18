@@ -5,8 +5,8 @@ import clsx from 'clsx';
 type IProps = {
   src: string;
   alt: string;
-  width: number | string;
-  height: number | string;
+  width?: number | string;
+  height?: number | string;
 
   caption?: React.ReactNode;
   isRounded?: boolean;
