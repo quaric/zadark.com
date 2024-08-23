@@ -2,7 +2,8 @@ ncdai:
   name: ncdai
   title: Founder of ZaDark
   url: https://chanhdai.com
-  image_url: /img/zadark-icon-square.png
+  # image_url: /img/zadark-icon-square.png
+  image_url: https://avatars.githubusercontent.com/u/10192821?v=4
   page: true
   email: dai@chanhdai.com
   socials:
