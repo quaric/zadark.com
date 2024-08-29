@@ -38,17 +38,12 @@ export const INSTALL_LINKS_FOR_WEB = [{
   // tutorialLink: '/web/firefox'
 }]
 
-const VERSION = '14.0';
+const ZADARK_PC_VERSION = '14.0.1';
 
-// export const DOWNLOAD_URLS = {
-//   WINDOWS: `https://zadark.sgp1.digitaloceanspaces.com/windows/ZaDark%20${VERSION}.zip`,
-//   MAC_APPLE_CHIP: `https://zadark.sgp1.digitaloceanspaces.com/macos/ZaDark%20${VERSION}%20-%20Apple%20Chip.zip`,
-//   MAC_INTEL_CHIP: `https://zadark.sgp1.digitaloceanspaces.com/macos/ZaDark%20${VERSION}%20-%20Intel%20Chip.zip`,
-// }
 export const DOWNLOAD_URLS = {
-  WINDOWS: `https://storage.zadark.com/ZaDark%20${VERSION}.zip`,
-  MAC_APPLE_CHIP: `https://storage.zadark.com/ZaDark%20${VERSION}%20-%20Apple%20Chip.zip`,
-  MAC_INTEL_CHIP: `https://storage.zadark.com/ZaDark%20${VERSION}%20-%20Intel%20Chip.zip`,
+  WINDOWS: `https://storage.zadark.com/ZaDark%20${ZADARK_PC_VERSION}.zip`,
+  MAC_APPLE_CHIP: `https://storage.zadark.com/ZaDark%20${ZADARK_PC_VERSION}%20-%20Apple%20Chip.zip`,
+  MAC_INTEL_CHIP: `https://storage.zadark.com/ZaDark%20${ZADARK_PC_VERSION}%20-%20Intel%20Chip.zip`,
 }
 
 export default {
