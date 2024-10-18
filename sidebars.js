@@ -111,9 +111,6 @@ const sidebars = {
       }, {
         type: "doc",
         id: "awards",
-      }, {
-        type: "doc",
-        id: "donate",
       }],
     },
     // {

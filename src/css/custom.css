@@ -103,12 +103,8 @@ div[class^=announcementBar_] .close {
   color: #fff;
 }
 
-.digitalocean-badge,
 .dmca-badge {
   display: inline-block;
-}
-
-.digitalocean-badge {
   margin-top: 1rem;
 }
 
