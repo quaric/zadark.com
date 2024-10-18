@@ -1,11 +1,12 @@
 ncdai:
   name: ncdai
-  title: Founder of ZaDark
+  title: Founder / Director at Quaric
   url: https://chanhdai.com
+  description: "I am passionate about software creativity."
   # image_url: /img/zadark-icon-square.png
   image_url: https://avatars.githubusercontent.com/u/10192821?v=4
   page: true
   email: dai@chanhdai.com
   socials:
-    linkedin: ncdai
     github: ncdai
+    linkedin: ncdai
