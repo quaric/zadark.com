@@ -215,7 +215,7 @@ const config = {
           items: [
             {
               label: 'Zalo Official Account',
-              href: 'https://zalo.me/quariccom',
+              href: 'https://zalo.me/2353934240045322830',
             },
             {
               label: 'Facebook',
