@@ -91,7 +91,7 @@ const config = {
       // },
       announcementBar: {
         id: 'zadark_noti_zalopc_24101',
-        content: 'Nếu bạn gặp lỗi Dark Mode trên <strong>Zalo PC 24.10.1</strong>, <a href="/blog/noti#khắc-phục-lỗi-zadark-trên-zalo-pc-24101">Nhấn vào đây</a> để xem cách khắc phục.',
+        content: 'Nếu bạn gặp lỗi Dark Mode trên <strong>Zalo PC 24.10.1</strong> hoặc mới hơn, <a href="/blog/noti#khắc-phục-lỗi-zadark-trên-zalo-pc-24101">Nhấn vào đây</a> để xem cách khắc phục.',
         backgroundColor: '#f97316',
         textColor: '#fff',
       },
