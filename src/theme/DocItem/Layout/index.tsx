@@ -60,22 +60,23 @@ export default function DocItemLayout({children}: Props): JSX.Element {
           <DocItemPaginator />
         </div>
       </div>
-      {docTOC.desktop && <div className="col col--3">
-        {docTOC.desktop}
-
-        <div className="ads-col-right margin-top--md">
-          <AdsByGoogle>
-            <ins
-              className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-5192881442581767"
-              data-ad-slot="6045782918"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
-          </AdsByGoogle>
+      {docTOC.desktop && (
+        <div className="col col--3">
+          {docTOC.desktop}
+          <div className="ads-col-right margin-top--md">
+            <AdsByGoogle>
+              <ins
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-5192881442581767"
+                data-ad-slot="6045782918"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+            </AdsByGoogle>
+          </div>
         </div>
-      </div>}
+      )}
     </div>
   );
 }
