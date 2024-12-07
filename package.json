@@ -1,8 +1,7 @@
 {
   "name": "zadark-docs",
-  "description": "Dark Mode tốt nhất cho Zalo",
-  "version": "24.12.3",
-  "private": true,
+  "description": "ZaDark.com website",
+  "version": "24.12.4",
   "author": {
     "name": "Quaric",
     "email": "hello@quaric.com",
