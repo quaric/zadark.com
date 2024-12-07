@@ -1,12 +1,40 @@
 ---
-title: Thông báo
+title: Thông báo từ ZaDark
 authors: ncdai
-date: 2024-11-26
+date: 2024-12-07
 ---
+import Image from '@site/src/components/image'
 
-## Khắc phục lỗi ZaDark trên Zalo PC 24.10.1
+## Khắc phục lỗi ZaDark trên Zalo PC 24.12.1 trở lên
+
+[Zalo chính thức phát hành Dark Mode](https://zadark.com/blog/zalo-chinh-thuc-ra-mat-giao-dien-dark-mode) trên Zalo PC **24.12.1** nên đã xung đột với ZaDark.
+
+Cách nhận biết lỗi:
+- Không nhìn thấy biểu tượng ZaDark ở thanh bên (Sidebar); và
+- Khi rê chuột vào vị trí bên trên biểu tượng zCloud thì thấy hiện dòng chữ "Cài đặt ZaDark ...", nhưng nhấn vào không có phản hồi.
+
+Cách khắc phục lỗi:
+
+B1. Mở "Cài đặt Zalo" > Chọn "Giao diện (Beta)" > Chọn "Sáng"
+
+<Image
+  src={require('./zalo-chinh-thuc-ra-mat-giao-dien-dark-mode/zalo-settings-light.jpeg').default}
+  alt="Chuyển giao diện Zalo về Sáng"
+  caption="Chuyển giao diện Zalo về Sáng"
+  isRounded
+/>
+
+B2. Tắt Zalo PC và mở lại
+
+<Image src={require('../docs/pc/img/win-quit-zalo.gif').default} alt="Tắt Zalo PC trên Windows" caption="Tắt Zalo PC trên Windows" isRounded />
+
+<Image src={require('../docs/pc/img/mac-quit-zalo.gif').default} alt="Tắt Zalo PC trên macOS" caption="Tắt Zalo PC trên macOS" isRounded />
+
+## Khắc phục lỗi ZaDark trên Zalo PC 24.10.1 trở lên
 
 Ngày 18/10/2024 nhiều người dùng ZaDark báo lỗi không thể kích hoạt Dark Mode sau khi Zalo PC **tự động cập nhật lên phiên bản 24.10.1**.
+
+Nguyên nhân: ZaDark xác định KHÔNG ĐÚNG phiên bản Zalo PC khi cài đặt (Lỗi đã được khắc phục từ [ZaDark 24.12.3](https://zadark.com/blog/changelog#zadark-24123))
 
 Cách khắc phục lỗi:
 - B1. Cài đặt lại **Zalo PC 24.10.1** hoặc mới hơn [**Nhấn vào đây**](https://zalo.me/pc) (<strong style={{ color: 'red' }}>KHÔNG GỠ ZALO PC</strong> vì dữ liệu có thể bị mất)

@@ -77,24 +77,25 @@ const config = {
         name: 'keywords',
         content: 'zalo dark mode, cách bật dark mode trên zalo pc, dark mode cho zalo pc, tải zalo dark mode, zalo dark, cách đổi nền zalo màu đen trên máy tính, thay đổi giao diện zalo màu đen trên máy tính, chỉnh zalo màu đen pc, cách chỉnh zalo thành màu đen, cách chuyển zalo sang màu đen, ẩn đang soạn tin zalo'
       }],
-      announcementBar: {
-        id: `zadark_release_${packageJSON.version.replace(/\./g, '')}`,
-        content: `Bản cập nhật <strong>ZaDark ${packageJSON.version}</strong> đã được phát hành. <a href="/blog/changelog#zadark-${packageJSON.version.replace(/\./g, '')}">Xem thay đổi</a>`,
-        backgroundColor: '#0068ff',
-        textColor: '#fff',
-      },
+      // announcementBar: {
+      //   id: `zadark_release_${packageJSON.version.replace(/\./g, '')}`,
+      //   content: `Bản cập nhật <strong>ZaDark ${packageJSON.version}</strong> đã được phát hành. <a href="/blog/changelog#zadark-${packageJSON.version.replace(/\./g, '')}">Xem thay đổi</a>`,
+      //   backgroundColor: '#0068ff',
+      //   textColor: '#fff',
+      // },
       // announcementBar: {
       //   id: 'zadark_product_hunt',
       //   content: 'ZaDark đã có mặt trên <strong>Product Hunt</strong>. Nếu bạn yêu thích ZaDark đừng quên để lại <strong>1 Vote</strong> nhé! <a href="https://www.producthunt.com/posts/zadark-zalo-dark-mode">Vote ZaDark</a>',
       //   backgroundColor: '#FF6154',
       //   textColor: '#fff',
       // },
-      // announcementBar: {
-      //   id: 'zadark_noti_zalopc_24101',
-      //   content: 'Nếu bạn gặp lỗi Dark Mode trên <strong>Zalo PC 24.10.1</strong> hoặc mới hơn, <a href="/blog/noti#khắc-phục-lỗi-zadark-trên-zalo-pc-24101">Nhấn vào đây</a> để xem cách khắc phục.',
-      //   backgroundColor: '#f97316',
-      //   textColor: '#fff',
-      // },
+      announcementBar: {
+        id: 'zadark_noti_zalopc_24121',
+        content: 'Nếu bạn gặp lỗi Dark Mode trên <strong>Zalo PC 24.12.1</strong>, <a href="/blog/noti#khắc-phục-lỗi-zadark-trên-zalo-pc-24121-trở-lên">Nhấn vào đây</a> để xem cách khắc phục.',
+        backgroundColor: '#dc2626',
+        textColor: '#fff',
+        isCloseable: false,
+      },
       navbar: {
         title: 'ZaDark',
         // hideOnScroll: true,
