@@ -98,7 +98,6 @@ const config = {
       // },
       navbar: {
         title: 'ZaDark',
-        // hideOnScroll: true,
         logo: {
           alt: 'ZaDark Logo',
           src: 'img/logo.svg',
@@ -110,59 +109,14 @@ const config = {
             position: 'left',
             label: 'Hướng dẫn',
           },
-          // {
-          //   type: 'dropdown',
-          //   label: 'Tải nhanh',
-          //   position: 'left',
-          //   items: [
-          //     {
-          //       label: 'ZaDark for Windows',
-          //       href: '/download/windows?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
-          //     },
-          //     {
-          //       label: 'ZaDark for macOS (Apple Chip)',
-          //       href: '/download/macos/apple-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
-          //     },
-          //     {
-          //       label: 'ZaDark for macOS (Intel Chip)',
-          //       href: '/download/macos/intel-chip?utm_source=zadark&utm_medium=navbar&utm_campaign=download_campaign',
-          //     },
-          //   ],
-          // },
           { to: '/blog', label: 'Blog', position: 'left' },
           { href: '/contact', label: 'Liên hệ', position: 'left' },
-          // {
-          //   type: 'dropdown',
-          //   label: 'Đánh giá',
-          //   position: 'left',
-          //   items: [
-          //     {
-          //       label: 'ZaDark for Windows',
-          //       href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
-          //     },
-          //     {
-          //       label: 'ZaDark for macOS',
-          //       href: 'https://sourceforge.net/projects/zadark/reviews/new?stars=5',
-          //     },
-          //     {
-          //       label: 'ZaDark for Chrome',
-          //       href: 'https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob/reviews',
-          //     },
-          //     {
-          //       label: 'ZaDark for Safari',
-          //       href: 'https://apps.apple.com/us/app/zadark-for-safari/id1615941471?mt=12?action=write-review',
-          //     },
-          //     {
-          //       label: 'ZaDark for Edge',
-          //       href: 'https://microsoftedge.microsoft.com/addons/detail/nbcljbcabjegmmogkcegephdkhckegcf',
-          //     },
-          //     {
-          //       label: 'ZaDark for Firefox',
-          //       href: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/reviews',
-          //     },
-          //   ],
-          // },
-          // {
+          {
+            href: "https://stats.uptimerobot.com/JXvCyf8fUy",
+            position: "right",
+            className: "header-status-link",
+            label: "Online",
+          },
           {
             href: 'https://github.com/quaric/zadark',
             position: 'right',
@@ -219,10 +173,6 @@ const config = {
             {
               label: 'GitHub',
               href: 'https://github.com/quaric/zadark'
-            },
-            {
-              label: "Trạng thái hệ thống",
-              href: "https://stats.uptimerobot.com/JXvCyf8fUy"
             },
           ],
         }, {
