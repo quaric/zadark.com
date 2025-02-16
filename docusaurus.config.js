@@ -112,7 +112,7 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'left' },
           { href: '/contact', label: 'Liên hệ', position: 'left' },
           {
-            href: "https://stats.uptimerobot.com/JXvCyf8fUy",
+            href: "https://status.quaric.com/status/zadark",
             position: "right",
             className: "header-status-link",
             label: "Online",
