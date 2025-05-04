@@ -35,9 +35,9 @@ export const INSTALL_LINKS_FOR_WEB = [{
 const ZADARK_PC_VERSION = '15.2.3';
 
 export const DOWNLOAD_URLS = {
-  WINDOWS: `https://storage.zadark.com/ZaDark${ZADARK_PC_VERSION}-windows.zip`,
-  MAC_APPLE_CHIP: `https://storage.zadark.com/ZaDark${ZADARK_PC_VERSION}-macos-arm64.zip`,
-  MAC_INTEL_CHIP: `https://storage.zadark.com/ZaDark${ZADARK_PC_VERSION}-macos-x64.zip`,
+  WINDOWS: `https://storage.zadark.com/zadark${ZADARK_PC_VERSION}-windows.zip`,
+  MAC_APPLE_CHIP: `https://storage.zadark.com/zadark${ZADARK_PC_VERSION}-macos-arm64.zip`,
+  MAC_INTEL_CHIP: `https://storage.zadark.com/zadark${ZADARK_PC_VERSION}-macos-x64.zip`,
 }
 
 export default {
