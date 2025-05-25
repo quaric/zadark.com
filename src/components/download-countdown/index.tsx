@@ -83,11 +83,11 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
       <div className="col col--8 col--offset-2">
         {countdown > 0 ? (
           <p className="text-center">
-            Tập tin sẽ được tải xuống sau <span className={styles.countdown}>{countdown} giây</span>
+            Tập tin sẽ được tải xuống sau <span className={styles.countdown}>{countdown.toString().padStart(2, '0')} giây</span>
           </p>
         ) : (
           <p className="text-center">
-            Vui lòng <a href="#" className={styles.countdown} onClick={handleRetryDownloadClick}>Nhấn vào đây</a> nếu tập tin vẫn chưa được tải xuống
+            Vui lòng <a href="#" className={styles.countdown} onClick={handleRetryDownloadClick}>Nhấn vào đây</a> nếu tập tin vẫn chưa được tải xuống.
           </p>
         )}
 
