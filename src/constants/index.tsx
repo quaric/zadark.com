@@ -32,7 +32,7 @@ export const INSTALL_LINKS_FOR_WEB = [{
   downloadLink: 'https://addons.mozilla.org/en-US/firefox/addon/zadark/',
 }]
 
-const ZADARK_PC_VERSION = '15.2.3';
+const ZADARK_PC_VERSION = '15.2.4';
 
 export const DOWNLOAD_URLS = {
   WINDOWS: `https://storage.zadark.com/zadark${ZADARK_PC_VERSION}-windows.zip`,
