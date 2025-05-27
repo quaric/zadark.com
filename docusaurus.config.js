@@ -7,9 +7,9 @@ const { themes } = require('prism-react-renderer');
 
 const packageJSON = require('./package.json');
 
-if (process.env.NODE_ENV === 'development') {
+// if (process.env.NODE_ENV === 'development') {
   dotenv.config();
-}
+// }
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -251,7 +251,17 @@ const config = {
   ],
   customFields: {
     MIXPANEL_TOKEN: process.env.MIXPANEL_TOKEN,
-  }
+  },
+  future: {
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true, // required
+    },
+    experimental_faster: {
+      rspackBundler: true, // required flag
+      rspackPersistentCache: true, // new flag
+      ssgWorkerThreads: true,
+    },
+  },
 };
 
 module.exports = config;
