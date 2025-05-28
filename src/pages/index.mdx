@@ -13,7 +13,9 @@ import ScreenStudioAff from '@site/src/components/screen-studio-aff'
 
 <h1 className="zadark-brand text-center" style={{ fontSize: "3rem" }}>ZaDark – Zalo Dark Mode</h1>
 
-<p className="text-center text-balance" style={{ fontSize: "1.5rem", marginBottom: "1.5rem" }}>[**ZaDark**](/about) là tiện ích giúp kích hoạt Dark Mode cho Zalo PC và Web. ZaDark có mặt trên Windows, macOS, Chrome, Safari, Edge và Firefox.</p>
+{/* <p className="text-center text-balance" style={{ fontSize: "1.5rem", marginBottom: "1.5rem" }}>[**ZaDark**](/about) là tiện ích giúp kích hoạt Dark Mode cho Zalo PC và Web. ZaDark có mặt trên Windows, macOS, Chrome, Safari, Edge và Firefox.</p> */}
+
+<p className="text-center text-balance" style={{ fontSize: "1.5rem", marginBottom: "1.5rem" }}>[**ZaDark**](/about) là tiện ích giúp kích hoạt Dark Mode cho Zalo PC và Web. ZaDark giúp bạn trải nghiệm Zalo 🔒 riêng tư hơn ✨ cá nhân hóa hơn.</p>
 
 <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap", marginBottom: "2rem" }}>
   <div className="dropdown dropdown--hoverable">
@@ -74,7 +76,7 @@ import ScreenStudioAff from '@site/src/components/screen-studio-aff'
   <Link to="/blog/changelog" className="whats-new">Bản cập nhật có gì mới?</Link>
 </div>
 
-<div className="margin-bottom--lg">
+{/* <div className="margin-bottom--lg">
   <iframe
     src="https://player.cloudinary.com/embed/?cloud_name=dj4iqdbrf&public_id=demo_zadark_reaction2_cdf23e343e&player[autoplay]=true&player[autoplayMode]=on-scroll&player[muted]=true&player[loop]=true&player[hideContextMenu]=true&player[logoOnclickUrl]=https%3A%2F%2Fzadark.com&player[logoImageUrl]=https%3A%2F%2Fzadark.com%2Fimg%2Flogo.svg&player[controlBar][volumePanel]=false&player[floatingWhenNotVisible]=right"
     width="756"
@@ -85,20 +87,28 @@ import ScreenStudioAff from '@site/src/components/screen-studio-aff'
     frameborder="0"
   />
   <div className="text-balance" style={{ fontStyle: "italic", textAlign: "center" }}>Bày tỏ cảm xúc tin nhắn với [80+ Emoji](https://zadark.com/blog#zadark-2541)</div>
-</div>
+</div> */}
 
-<div className="margin-bottom--md">
+{/* <div className="margin-bottom--md">
   <img src={require("@site/docs/img/mockup-23.12.5-mascot-1.1.webp").default} alt="ZaDark – Zalo Dark Mode" width="992px" className="zoomable" style={{ display: "block", margin: "0 auto" }} />
-</div>
+</div> */}
 
-<div className="margin-bottom--md text-center">
+{/* <div className="margin-bottom--md text-center">
   <a href="https://quaric.com" target="_blank" rel="noopener dofollow" aria-label="ZaDark by Quaric"><ZaDarkByQuaric /></a>
-</div>
+</div> */}
 
 <div className="container">
+  <div className="margin-bottom--md">
+    <Image
+      src={require("@site/docs/img/250528-zadark-features.jpeg").default}
+      alt="ZaDark giúp bạn trải nghiệm Zalo 🔒 riêng tư hơn ✨ cá nhân hóa hơn – đúng theo cách bạn muốn."
+      isRounded
+    />
+  </div>
+
   <div className="card margin-bottom--md">
     <div className="card__body">
-      <h3>Dark Mode được tối ưu riêng cho Zalo</h3>
+      <h3>🌙 Dark Mode được tối ưu riêng cho Zalo</h3>
       - Màu sắc đẹp, độ tương phản tốt
       - Tuỳ chỉnh giao diện trực tiếp trên Zalo: Sáng, Tối hoặc Theo hệ thống
     </div>
@@ -106,7 +116,7 @@ import ScreenStudioAff from '@site/src/components/screen-studio-aff'
 
   <div className="card margin-bottom--md">
     <div className="card__body">
-      <h3>Tuỳ chỉnh giao diện Zalo theo sở thích</h3>
+      <h3>🎨 Tuỳ chỉnh giao diện Zalo theo sở thích</h3>
       - [Tuỳ chỉnh phông chữ](/blog/use-google-fonts), cỡ chữ
       - [Tuỳ chỉnh hình nền](/blog/doi-hinh-nen-cuoc-tro-chuyen-zalo-tren-may-tinh) cuộc trò chuyện
       - [Dịch nhanh tin nhắn](/blog/dich-tin-nhan-zalo) sang ngôn ngữ tuỳ chỉnh
@@ -116,7 +126,7 @@ import ScreenStudioAff from '@site/src/components/screen-studio-aff'
 
   <div className="card margin-bottom--md">
     <div className="card__body">
-      <h3>Riêng tư hơn khi trò chuyện với bạn bè</h3>
+      <h3>🔒 Riêng tư hơn khi trò chuyện với bạn bè</h3>
       - [Chống nhìn trộm](/blog/chong-nhin-trom-tin-nhan-zalo) tin nhắn
       - [Ẩn trạng thái](/blog/cach-tat-dang-soan-tin-tren-zalo): Đang soạn tin, Đã nhận và Đã xem
     </div>
@@ -124,7 +134,7 @@ import ScreenStudioAff from '@site/src/components/screen-studio-aff'
 
   <div className="card margin-bottom--md">
     <div className="card__body">
-      <h3>An toàn khi sử dụng ZaDark</h3>
+      <h3>✅ An toàn khi sử dụng ZaDark</h3>
       - Không thu thập dữ liệu cá nhân (Xem [chính sách bảo mật](/privacy-policy))
       - Đa nền tảng: Windows, macOS, Chrome, Safari, Edge và Firefox
       - Mã nguồn mở: [https://github.com/quaric/zadark](https://github.com/quaric/zadark)

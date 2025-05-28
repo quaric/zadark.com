@@ -7,9 +7,9 @@ const { themes } = require('prism-react-renderer');
 
 const packageJSON = require('./package.json');
 
-// if (process.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV === 'development') {
   dotenv.config();
-// }
+}
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
