@@ -193,7 +193,7 @@ const config = {
         logo: {
           src: 'img/quaric-lockup-light.svg',
           alt: 'Quaric',
-          height: 24,
+          height: 32,
           href: 'https://quaric.com',
           target: '_blank'
         },

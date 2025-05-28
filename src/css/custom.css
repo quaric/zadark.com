@@ -21,8 +21,10 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  --ifm-global-radius: 0.5rem;
+  --ifm-global-radius: 0.75rem;
   --ifm-button-color: #fff;
+
+  --ifm-card-border-radius: var(--ifm-global-radius);
 
   --ads-by-google-background-color: var(--ifm-color-gray-100);
   --header-sys-status-bg: #ebedf0;
@@ -181,4 +183,12 @@ div[class^=announcementBar_] .close {
 .ads-col-right {
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .card {
+  border: 1px solid var(--ifm-color-emphasis-200);
 }

@@ -73,11 +73,6 @@ const sidebars = {
         },
         {
           type: "doc",
-          id: "web/opera",
-          label: "ZaDark for Opera"
-        },
-        {
-          type: "doc",
           id: "web/firefox",
           label: "ZaDark for Firefox"
         }
