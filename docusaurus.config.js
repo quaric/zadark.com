@@ -79,7 +79,7 @@ const config = {
       }],
       announcementBar: {
         id: `zadark_release_${packageJSON.version.replace(/\./g, '')}`,
-        content: `Bản cập nhật <strong>ZaDark ${packageJSON.version}</strong> đã được phát hành. <a href="/blog/changelog#zadark-${packageJSON.version.replace(/\./g, '')}">Xem thay đổi</a>`,
+        content: `Bản cập nhật <strong>ZaDark ${packageJSON.version}</strong> đã được phát hành 🎉 <a href="/blog/changelog#zadark-${packageJSON.version.replace(/\./g, '')}">Xem thay đổi</a>`,
         backgroundColor: '#0068ff',
         textColor: '#fff',
       },
@@ -111,12 +111,12 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           { href: '/contact', label: 'Liên hệ', position: 'left' },
-          {
-            href: "https://status.quaric.com/status/zadark",
-            position: "right",
-            className: "header-status-link",
-            label: "Online",
-          },
+          // {
+          //   href: "https://status.quaric.com/status/zadark",
+          //   position: "right",
+          //   className: "header-status-link",
+          //   label: "Online",
+          // },
           {
             href: 'https://github.com/quaric/zadark',
             position: 'right',
@@ -204,7 +204,7 @@ const config = {
         additionalLanguages: ['bash']
       },
       colorMode: {
-        defaultMode: 'dark',
+        // defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
