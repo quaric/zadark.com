@@ -3,7 +3,6 @@ import mixpanel from 'mixpanel-browser';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css'
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import ScreenStudioAff from '@site/src/components/screen-studio-aff'
 
 type IProps = {
   url: string;
@@ -94,8 +93,6 @@ const DownloadCountdown: React.FC<IProps> = ({ url, children }) => {
         <div className="alert alert--warning margin-bottom--md" role="alert">
           <strong>ZaDark không chứa bất kỳ virus, mã độc nào</strong>. Nếu trình bảo vệ máy tính phát hiện tập tin cài đặt ZaDark có Virus, bạn tuyệt đối không tiếp tục mở tập tin và thông báo cho chúng tôi <Link to="/contact"><strong>tại đây</strong></Link>.
         </div>
-
-        <ScreenStudioAff />
 
         <div>
           {children}
