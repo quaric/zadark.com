@@ -1,12 +1,12 @@
 ncdai:
   name: ncdai
-  title: Founder / Director of Quaric
+  title: Design Engineer
   url: https://chanhdai.com
-  description: "Creating with code, driven by passion."
+  description: "Creating with code. Small details matter."
   # image_url: /img/zadark-icon-square.png
   image_url: https://avatars.githubusercontent.com/u/10192821?v=4
   page: true
   email: dai@chanhdai.com
   socials:
+    x: iamncdai
     github: ncdai
-    linkedin: ncdai
