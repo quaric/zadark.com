@@ -117,6 +117,7 @@ const config = {
           //   className: "header-status-link",
           //   label: "Online",
           // },
+          { href: 'https://github.com/sponsors/ncdai', label: 'Sponsor', position: 'right' },
           {
             href: 'https://github.com/quaric/zadark',
             position: 'right',
