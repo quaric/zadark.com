@@ -194,3 +194,11 @@ h6 {
 [data-theme='dark'] .card {
   border: 1px solid var(--ifm-color-emphasis-200);
 }
+
+table thead tr {
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
+
+table tr:nth-child(2n) {
+  background-color: transparent;
+}
