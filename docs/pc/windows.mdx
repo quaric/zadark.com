@@ -44,6 +44,38 @@ Chuyển giao diện Zalo về **Sáng (Light)** trước khi cài đặt ZaDark
   ></ins>
 </AdsByGoogle>
 
+##  Cài đặt ZaDark với Scoop \{#install-zadark-with-scoop}
+
+:::info
+Bạn có thể tìm hiểu thêm về [**Scoop**](https://scoop.sh) trên Website chính thức.
+:::
+
+:::warning
+Chuyển giao diện Zalo về **Sáng (Light)** trước khi cài đặt ZaDark. <a href="/blog/noti#khắc-phục-lỗi-zadark-trên-zalo-pc-24121-trở-lên" target="_blank">**Xem hướng dẫn**</a>
+:::
+
+Bạn mở **Windows PowerShell** và thực hiện theo hướng dẫn bên dưới.
+
+### Cài đặt ZaDark \{#add-zadark-bucket}
+
+```bash
+scoop bucket add zadark https://github.com/quaric/scoop-zadark
+scoop install zadark/zadark
+```
+
+### Sử dụng ZaDark \{#use-zadark-cli}
+
+```bash
+# Cài đặt ZaDark
+zadark install
+
+# Gỡ cài đặt ZaDark
+zadark uninstall
+
+# Kiểm tra phiên bản ZaDark
+zadark -v
+```
+
 ## Các lỗi thường gặp \{#common-errors}
 
 :::tip
