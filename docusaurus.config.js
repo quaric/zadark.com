@@ -117,7 +117,7 @@ const config = {
           //   className: "header-status-link",
           //   label: "Online",
           // },
-          { href: '/sponsors', label: 'Nhà tài trợ', position: 'right' },
+          { href: '/sponsors', label: 'Nhà tài trợ', position: 'left' },
           {
             href: 'https://github.com/quaric/zadark',
             position: 'right',

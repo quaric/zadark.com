@@ -28,6 +28,9 @@
 
   --ads-by-google-background-color: var(--ifm-color-gray-100);
   --header-sys-status-bg: #ebedf0;
+
+  --background: #fff;
+  --foreground: #000;
 }
 
 [data-theme='dark'] {
@@ -45,6 +48,9 @@
   --header-sys-status-bg: #3b3c3e;
 
   --ifm-hr-background-color: var(--ifm-color-gray-800);
+
+  --background: #000;
+  --foreground: #fff;
 }
 
 h1,
