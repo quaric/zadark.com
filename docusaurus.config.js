@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'development') {
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ZaDark by Quaric',
-  tagline: 'Dark Mode tốt nhất cho Zalo',
+  tagline: 'Dark Mode cho Zalo',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
